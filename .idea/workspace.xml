@@ -7,10 +7,26 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="" />
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="Prueba de commit desde pycharm">
+      <change afterPath="$PROJECT_DIR$/Proyecto/prototipos html/css/estilos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto/prototipos html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/imagenes/ciudades/barcelona.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/imagenes/ciudades/barcelona.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/imagenes/ciudades/cadiz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/imagenes/ciudades/cadiz.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/imagenes/ciudades/londres.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/imagenes/ciudades/londres.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/imagenes/ciudades/madrid.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/imagenes/ciudades/madrid.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/imagenes/ciudades/sevilla.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/imagenes/ciudades/sevilla.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/imagenes/ciudades/valencia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/imagenes/ciudades/valencia.jpg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,24 +35,40 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="03d16eca-d060-44ff-aafc-801b759655de" />
+  </component>
   <component name="JupyterTrust" id="61ed0f82-5857-4ae5-a60b-bf5788ad0402" />
   <component name="ProjectId" id="1ffxYebpKLo582vQplaBcNFWAhE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Proyecto/prototipos html" />
       <recent name="$PROJECT_DIR$/handitour" />
     </key>
   </component>
@@ -78,8 +110,16 @@
       <workItem from="1596625048197" duration="2213000" />
       <workItem from="1596628640270" duration="795000" />
       <workItem from="1596641207948" duration="1336000" />
-      <workItem from="1596707402903" duration="483000" />
+      <workItem from="1596707402903" duration="3862000" />
     </task>
+    <task id="LOCAL-00001" summary="Prueba de commit desde pycharm">
+      <created>1596713149484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596713149484</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,7 +141,24 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -113,6 +170,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Prueba de commit desde pycharm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba de commit desde pycharm" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="-1491" y="270" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596625386194">
       <screen x="-1920" y="-157" width="1920" height="965" />
@@ -122,6 +183,10 @@
       <screen x="-1920" y="-157" width="1920" height="965" />
     </state>
     <state x="-1428" y="255" key="Github.CreateGistDialog/0.23.1440.877/-1920.-157.1920.965@-1920.-157.1920.965" timestamp="1596627892931" />
+    <state x="-1137" y="273" key="Github.Dialog.Accounts.Choose" timestamp="1596713173813">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1137" y="273" key="Github.Dialog.Accounts.Choose/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1596713173813" />
     <state width="1870" height="293" key="GridCell.Tab.0.bottom" timestamp="1596623765968">
       <screen x="-1920" y="-157" width="1920" height="1057" />
     </state>
@@ -147,9 +212,17 @@
     </state>
     <state x="-1231" y="138" key="SettingsEditor/-3032.132.1112.834/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1596642223416" />
     <state x="-1231" y="-42" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1596712977772" />
+    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2" timestamp="1596713167288">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1596713167288" />
     <state x="-1565" y="-116" width="730" height="924" key="find.popup" timestamp="1596628915009">
       <screen x="-1920" y="-157" width="1920" height="965" />
     </state>
     <state x="-1565" y="-116" width="730" height="924" key="find.popup/0.23.1440.877/-1920.-157.1920.965@-1920.-157.1920.965" timestamp="1596628915009" />
+    <state x="-1379" y="48" width="838" height="1032" key="search.everywhere.popup" timestamp="1596716160774">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1379" y="48" width="838" height="1032" key="search.everywhere.popup/-3032.132.1112.834/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1596716160774" />
   </component>
 </project>
