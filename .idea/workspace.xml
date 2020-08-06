@@ -16,17 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="Prueba de commit desde pycharm">
-      <change afterPath="$PROJECT_DIR$/Proyecto/prototipos html/css/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto/prototipos html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/imagenes/ciudades/barcelona.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/imagenes/ciudades/barcelona.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/imagenes/ciudades/cadiz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/imagenes/ciudades/cadiz.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/imagenes/ciudades/londres.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/imagenes/ciudades/londres.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/imagenes/ciudades/madrid.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/imagenes/ciudades/madrid.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/imagenes/ciudades/sevilla.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/imagenes/ciudades/sevilla.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/imagenes/ciudades/valencia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/imagenes/ciudades/valencia.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="Organización y prototipo index en html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +100,7 @@
       <workItem from="1596625048197" duration="2213000" />
       <workItem from="1596628640270" duration="795000" />
       <workItem from="1596641207948" duration="1336000" />
-      <workItem from="1596707402903" duration="3862000" />
+      <workItem from="1596707402903" duration="4236000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba de commit desde pycharm">
       <created>1596713149484</created>
@@ -119,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596713149484</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Organización y prototipo index en html">
+      <created>1596717492537</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596717492537</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +169,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prueba de commit desde pycharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prueba de commit desde pycharm" />
+    <MESSAGE value="Organización y prototipo index en html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organización y prototipo index en html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1491" y="270" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596625386194">
@@ -212,9 +210,10 @@
     </state>
     <state x="-1231" y="138" key="SettingsEditor/-3032.132.1112.834/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1596642223416" />
     <state x="-1231" y="-42" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1596712977772" />
-    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2" timestamp="1596713167288">
-      <screen x="-1920" y="-180" width="1920" height="1080" />
+    <state x="-1460" y="217" key="Vcs.Push.Dialog.v2" timestamp="1596717535758">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="-1460" y="217" key="Vcs.Push.Dialog.v2/-3032.132.1112.834/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1596717535758" />
     <state x="-1460" y="37" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1596713167288" />
     <state x="-1565" y="-116" width="730" height="924" key="find.popup" timestamp="1596628915009">
       <screen x="-1920" y="-157" width="1920" height="965" />
