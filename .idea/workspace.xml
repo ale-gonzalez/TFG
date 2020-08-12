@@ -5,11 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="Organización y prototipo index en html">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/prototipos html/ciudad.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/ciudad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/prototipos html/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/css/estilos.css" afterDir="false" />
-    </list>
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="Organización y prototipo index en html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +92,7 @@
       <workItem from="1596707402903" duration="4236000" />
       <workItem from="1596798046707" duration="3527000" />
       <workItem from="1596880288718" duration="1815000" />
-      <workItem from="1597136309727" duration="7381000" />
+      <workItem from="1597136309727" duration="8184000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba de commit desde pycharm">
       <created>1596713149484</created>
@@ -133,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596886663378</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="prototipo ciudad en html y actualización indice memorias">
+      <created>1597146599684</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597146599684</updated>
+    </task>
+    <task id="LOCAL-00007" summary="modificación">
+      <created>1597146767499</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597146767499</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +211,9 @@
     <MESSAGE value="diagrama ER graphml y png junto con actualización indice memorias" />
     <MESSAGE value="Cambios css prototipo index en html" />
     <MESSAGE value="inicio prototipo ciudadad html" />
-    <option name="LAST_COMMIT_MESSAGE" value="inicio prototipo ciudadad html" />
+    <MESSAGE value="prototipo ciudad en html y actualización indice memorias" />
+    <MESSAGE value="modificación" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificación" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1491" y="270" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596625386194">
@@ -241,14 +253,15 @@
     </state>
     <state x="-1231" y="138" key="SettingsEditor/-3032.132.1112.834/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1596642223416" />
     <state x="-1231" y="-42" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1596712977772" />
-    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2" timestamp="1596886695713">
+    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2" timestamp="1597146817864">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
     <state x="-1460" y="217" key="Vcs.Push.Dialog.v2/-3032.132.1112.834/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1596798564953" />
-    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1596886695713" />
-    <state x="-1565" y="-116" width="730" height="924" key="find.popup" timestamp="1596628915009">
-      <screen x="-1920" y="-157" width="1920" height="965" />
+    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597146817864" />
+    <state x="-1565" y="-135" width="730" height="1035" key="find.popup" timestamp="1597146784533">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
+    <state x="-1565" y="-135" width="730" height="1035" key="find.popup/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597146784533" />
     <state x="-1565" y="-116" width="730" height="924" key="find.popup/0.23.1440.877/-1920.-157.1920.965@-1920.-157.1920.965" timestamp="1596628915009" />
     <state x="-1379" y="48" width="838" height="1032" key="search.everywhere.popup" timestamp="1597144905833">
       <screen x="-1920" y="0" width="1920" height="1080" />
