@@ -8,7 +8,7 @@
     <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="Organización y prototipo index en html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/prototipos html/ciudad.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/ciudad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/prototipos html/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/css/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/prototipos html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,8 @@
       <workItem from="1597339314476" duration="325000" />
       <workItem from="1597488178843" duration="2588000" />
       <workItem from="1597572749399" duration="1038000" />
-      <workItem from="1597750920336" duration="4093000" />
+      <workItem from="1597750920336" duration="4725000" />
+      <workItem from="1597828536409" duration="3880000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba de commit desde pycharm">
       <created>1596713149484</created>
@@ -180,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597575181271</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="mejora prototipo ciudad.html y actualización indice memorias.docx">
+      <created>1597756286544</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597756286544</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +262,8 @@
     <MESSAGE value="Mejora ER y avtualización indice memorias" />
     <MESSAGE value="mejoras ER y prototipos html" />
     <MESSAGE value="pruebas" />
-    <option name="LAST_COMMIT_MESSAGE" value="pruebas" />
+    <MESSAGE value="mejora prototipo ciudad.html y actualización indice memorias.docx" />
+    <option name="LAST_COMMIT_MESSAGE" value="mejora prototipo ciudad.html y actualización indice memorias.docx" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1491" y="270" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596625386194">
@@ -294,11 +303,11 @@
     </state>
     <state x="-1231" y="138" key="SettingsEditor/-3032.132.1112.834/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1596642223416" />
     <state x="-1231" y="-42" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1596712977772" />
-    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2" timestamp="1597575230120">
+    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2" timestamp="1597756322400">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
     <state x="-1460" y="217" key="Vcs.Push.Dialog.v2/-3032.132.1112.834/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597339720803" />
-    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597575230120" />
+    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597756322400" />
     <state x="-1565" y="-135" width="730" height="1035" key="find.popup" timestamp="1597146784533">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
