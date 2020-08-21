@@ -6,12 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="Organización y prototipo index en html">
+      <change afterPath="$PROJECT_DIR$/Proyecto/prototipos html/monumento.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/djangoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangoProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/modelo/modelo simple 3.graphml" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/modelo/modelo simple 3.graphml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/prototipos html/ciudad.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/ciudad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/prototipos html/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/prototipos html/css/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +107,8 @@
       <workItem from="1597572749399" duration="1038000" />
       <workItem from="1597750920336" duration="4725000" />
       <workItem from="1597828536409" duration="4311000" />
-      <workItem from="1597915169762" duration="6152000" />
+      <workItem from="1597915169762" duration="6624000" />
+      <workItem from="1598002604595" duration="5830000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba de commit desde pycharm">
       <created>1596713149484</created>
@@ -200,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597837033924</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Prototipo ciudad html reponsive, app instalada, cambios modelo y actualización indice memorias">
+      <created>1597927936149</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1597927936149</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,13 +284,22 @@
     <MESSAGE value="pruebas" />
     <MESSAGE value="mejora prototipo ciudad.html y actualización indice memorias.docx" />
     <MESSAGE value="Acabado prototipo ciudad, mejora código prototipo index y ciudad html, retoque prototipo index" />
-    <option name="LAST_COMMIT_MESSAGE" value="Acabado prototipo ciudad, mejora código prototipo index y ciudad html, retoque prototipo index" />
+    <MESSAGE value="Prototipo ciudad html reponsive, app instalada, cambios modelo y actualización indice memorias" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototipo ciudad html reponsive, app instalada, cambios modelo y actualización indice memorias" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1491" y="270" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596625386194">
       <screen x="-1920" y="-157" width="1920" height="965" />
     </state>
     <state x="-1491" y="270" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877/-1920.-157.1920.965@-1920.-157.1920.965" timestamp="1596625386194" />
+    <state x="-782" y="81" key="EnvironmentVariablesDialog" timestamp="1598005154058">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-782" y="81" key="EnvironmentVariablesDialog/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1598005154058" />
+    <state x="-881" y="112" key="FileChooserDialogImpl" timestamp="1598005721490">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
+    </state>
+    <state x="-881" y="112" key="FileChooserDialogImpl/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1598005721490" />
     <state x="-1428" y="255" key="Github.CreateGistDialog" timestamp="1596627892931">
       <screen x="-1920" y="-157" width="1920" height="965" />
     </state>
@@ -291,36 +308,36 @@
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
     <state x="-1137" y="273" key="Github.Dialog.Accounts.Choose/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1596713173813" />
-    <state width="1870" height="293" key="GridCell.Tab.0.bottom" timestamp="1596623765968">
-      <screen x="-1920" y="-157" width="1920" height="1057" />
+    <state width="1868" height="291" key="GridCell.Tab.0.bottom" timestamp="1598010057607">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1870" height="293" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1596623604655" />
+    <state width="1868" height="291" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1598010057607" />
     <state width="1870" height="293" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1596623765968" />
-    <state width="1870" height="293" key="GridCell.Tab.0.center" timestamp="1596623765967">
-      <screen x="-1920" y="-157" width="1920" height="1057" />
+    <state width="1868" height="291" key="GridCell.Tab.0.center" timestamp="1598010057606">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1870" height="293" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1596623604652" />
+    <state width="1868" height="291" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1598010057606" />
     <state width="1870" height="293" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1596623765967" />
-    <state width="1870" height="293" key="GridCell.Tab.0.left" timestamp="1596623765966">
-      <screen x="-1920" y="-157" width="1920" height="1057" />
+    <state width="1868" height="291" key="GridCell.Tab.0.left" timestamp="1598010057604">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1870" height="293" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1596623604649" />
+    <state width="1868" height="291" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1598010057604" />
     <state width="1870" height="293" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1596623765966" />
-    <state width="1870" height="293" key="GridCell.Tab.0.right" timestamp="1596623765967">
-      <screen x="-1920" y="-157" width="1920" height="1057" />
+    <state width="1868" height="291" key="GridCell.Tab.0.right" timestamp="1598010057607">
+      <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1870" height="293" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1596623604653" />
+    <state width="1868" height="291" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1598010057607" />
     <state width="1870" height="293" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1596623765967" />
-    <state x="-1231" y="-42" key="SettingsEditor" timestamp="1597925288023">
+    <state x="-1231" y="-42" key="SettingsEditor" timestamp="1598009616168">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
     <state x="-1231" y="138" key="SettingsEditor/-3032.132.1112.834/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1596642223416" />
-    <state x="-1231" y="-42" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597925288023" />
-    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2" timestamp="1597837075967">
+    <state x="-1231" y="-42" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1598009616168" />
+    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2" timestamp="1597927978276">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
     <state x="-1460" y="217" key="Vcs.Push.Dialog.v2/-3032.132.1112.834/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1597339720803" />
-    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597837075967" />
+    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1597927978276" />
     <state x="-1565" y="-135" width="730" height="1035" key="find.popup" timestamp="1597146784533">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
