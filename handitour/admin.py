@@ -1,7 +1,6 @@
 from django.contrib import admin
-from .models import Usuario, Ciudad, Valoracion, Monumento, Barrio, Aparcamiento, Transporte, Linea, Parada
-# Register your models here.
-admin.site.register(Usuario)
+from .models import Ciudad, Valoracion, Monumento, Barrio, Aparcamiento, Transporte, Linea, Parada
+# Register your models here
 admin.site.register(Ciudad)
 admin.site.register(Valoracion)
 admin.site.register(Monumento)
