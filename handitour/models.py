@@ -8,7 +8,7 @@ class Ciudad(models.Model):
     historia = models.CharField(max_length=500)
     localizacion = models.CharField(max_length=20)
     foto = models.FileField(null=True, upload_to="img/ciudad")
-    visitantes = models.ManyToManyField(User)
+    visitantes = models.ManyToManyField(User, blank=True)
 
     def __str__(self):
         return self.nombre
@@ -21,7 +21,7 @@ class Monumento(models.Model):
     localizacion = models.CharField(max_length=20)
     precio_pers = models.PositiveIntegerField(default=0)
     precio_disc = models.PositiveIntegerField(default=0)
-    foto = models.FileField(null=True, upload_to="img/ciudad")
+    foto = models.FileField(null=True, upload_to="img/monumento")
 
     def __str__(self):
         return self.nombre
@@ -87,7 +87,7 @@ class Parada(models.Model):
 
 class Transporte(models.Model):
     tipo = models.CharField(max_length=30)
-    usuarios = models.ManyToManyField(User)
+    usuarios = models.ManyToManyField(User, blank=True)
 
     def __str__(self):
         return self.tipo
