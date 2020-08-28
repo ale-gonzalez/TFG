@@ -18,7 +18,7 @@ class Monumento(models.Model):
     nombre = models.CharField(max_length=30)
     agno_inaguracion = models.CharField(max_length=9)
     historia = models.CharField(max_length=500)
-    localizacion = models.CharField(max_length=20)
+    localizacion = models.CharField(max_length=30)
     precio_pers = models.PositiveIntegerField(default=0)
     precio_disc = models.PositiveIntegerField(default=0)
     foto = models.FileField(null=True, upload_to="img/monumento")
