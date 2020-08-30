@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Handitour - inicio{% endblock %}
+{% block content %}
+{% for ciudad in ciudades %}
+  <div class="row mt-3 ml-5">
+    <div class="card" style="width: 18rem; margin-right: 2%; margin-bottom: 2%;">
+              <img src="{{ciudad.foto}}" class="card-img-top" alt="...">
+        <div class="card-body">
+         <p class="card-text">{{ciudad}}</p>
+      </div>
+   </div>
+
+{% endfor %}
+
+{% endblock %}
