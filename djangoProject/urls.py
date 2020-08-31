@@ -21,5 +21,6 @@ from django.conf.urls.static import static
 urlpatterns = [
   path('admin/', admin.site.urls),
   path('', include('handitour.urls'))
-] 	+ static("/img/", document_root=settings.BASE_DIR+"/img/") \
+]\
+    + static("/img/", document_root=settings.BASE_DIR+"/img/") \
     + static("/static/", document_root=settings.BASE_DIR+"/static/")
