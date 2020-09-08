@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+{% block content %}
+    <h1>Portal handitour</h1>
+    <form action="." method="POST" enctype="multipart/form-data" id="alta">
+        {% csrf_token %}
+    
+        {{ form.as_p }}
+    
+        <button type="submit" class="btn btn-primary form-control">Entrar</button>
+    </form>
+    <a href="/registro"> ¿Aún no está registrado?</a>
+{% endblock %}

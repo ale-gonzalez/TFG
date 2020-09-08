@@ -16,7 +16,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" href="#">Log in <span class="sr-only">(current)</span></a>
+                {% if user.authenticate %}
+                    <a class="nav-link active" href="/logout">Log in <span class="sr-only">(current)</span></a>
+                {% else %}
+                    <a class="nav-link active" href="/login">Log in <span class="sr-only">(current)</span></a>
+                {% endif %}
             </div>
           </div>
         </nav>
