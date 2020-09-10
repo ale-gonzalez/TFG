@@ -3,17 +3,6 @@ from django.contrib.auth.models import User
 from django.core.validators import MaxValueValidator, MinValueValidator
 
 
-class Ciudad(models.Model):
-    nombre = models.CharField(max_length=30)
-    historia = models.CharField(max_length=500)
-    localizacion = models.CharField(max_length=20)
-    foto = models.FileField(null=True, upload_to="img/ciudad")
-    visitantes = models.ManyToManyField(User, blank=True)
-
-    def __str__(self):
-        return self.nombre
-
-
 class Monumento(models.Model):
     nombre = models.CharField(max_length=30)
     agno_inaguracion = models.CharField(max_length=9)
@@ -25,6 +14,19 @@ class Monumento(models.Model):
 
     def __str__(self):
         return self.nombre
+
+
+class Ciudad(models.Model):
+    nombre = models.CharField(max_length=30)
+    historia = models.CharField(max_length=500)
+    localizacion = models.CharField(max_length=20)
+    foto = models.FileField(null=True, upload_to="img/ciudad")
+    visitantes = models.ManyToManyField(User, blank=True)
+    monumentos = models.ForeignKey(Monumento, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.nombre
+
 
 
 class Valoracion(models.Model):

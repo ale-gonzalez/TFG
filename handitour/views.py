@@ -1,14 +1,15 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from .models import Ciudad
 from .forms import LoginForm, AltaForm
-from django.contrib.auth import authenticate, login, logout, get_user
+from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 
+
 def ciudades (request):
     ciudades = Ciudad.objects.all()
-    return render(request, "index.html", {"ciudades":ciudades})
+    return render(request, "index.html", {"ciudades":ciudades, "encabezado":"HANDITOUR"})
 
 
 def login_usuario(request):
@@ -27,10 +28,12 @@ def login_usuario(request):
         form = LoginForm()
         return render(request, "login_form.html", {'form': form})
 
+
 @login_required
 def logout_usuario(request):
     logout(request)
-    return redirect('/login/')
+    return redirect('/inicio')
+
 
 def alta_usuario(request):
     if request.POST:
@@ -43,3 +46,9 @@ def alta_usuario(request):
     else:
         form = AltaForm()
         return render(request, "altausuario_form.html", {'form': form})
+
+
+def ciudad_monumento(request, id):
+    ciudad = get_object_or_404(Ciudad, id)
+    monumentos = ciudad.monumentos_set.all()
+    return render(request, {'monumementos':monumentos})
