@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from .models import Ciudad
+from .models import Ciudad, Monumento
 from .forms import LoginForm, AltaForm
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
@@ -49,6 +49,6 @@ def alta_usuario(request):
 
 
 def ciudad_monumento(request, id):
-    ciudad = get_object_or_404(Ciudad, id)
+    ciudad = get_object_or_404(Ciudad, id=id)
     monumentos = ciudad.monumentos_set.all()
-    return render(request, {'monumementos':monumentos})
+    return render(request, {'monumentos':monumentos})
