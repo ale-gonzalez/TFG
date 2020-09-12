@@ -49,11 +49,13 @@ class Alojamiento(models.Model):
 
 
 class Linea(models.Model):
+    numero_nombre = models.CharField(max_length=30)
     origen = models.CharField(max_length=30)
     destino = models.CharField(max_length=30)
+    transporte = models.ForeignKey("Transporte", null=True, on_delete=models.CASCADE)
 
     def __str__(self):
-        return self.origen + " - " + self.destino
+        return self.numero_nombre + ":" + self.origen + " - " + self.destino
 
 
 class Barrio(models.Model):
@@ -72,8 +74,8 @@ class Monumento(models.Model):
     agno_inaguracion = models.CharField(max_length=9)
     historia = models.TextField(max_length=500)
     localizacion = models.CharField(max_length=30)
-    precio_pers = models.DecimalField(default=0, max_digits=3, decimal_places=2)
-    precio_disc = models.DecimalField(default=0, max_digits=3, decimal_places=2)
+    precio_pers = models.DecimalField(default=0, max_digits=4, decimal_places=2)
+    precio_disc = models.DecimalField(default=0, max_digits=4, decimal_places=2)
     barrio = models.ForeignKey("Barrio", null = True, on_delete=models.CASCADE)
     foto = models.FileField(null=True, upload_to="img/monumento")
 
@@ -84,7 +86,7 @@ class Monumento(models.Model):
 class Parada(models.Model):
     nombre = models.CharField(max_length=30)
     localizacion = models.CharField(max_length=30)
-    lineas = models.ManyToManyField(Linea)
+    lineas = models.ManyToManyField("Linea")
     barrio = models.ForeignKey("Barrio", on_delete=models.CASCADE)
 
     def __str__(self):
