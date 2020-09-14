@@ -27,15 +27,14 @@
     {% endfor %}
     </div>
     <div class="row">
-        <div class="mapa">
+        <div id="mapa">
 
         </div>
     </div>
 
 {% endblock %}
 {% block mapa %}
-<script defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s&callback=initMap">
-</script>
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s&callback=initMap"></script>
+<script src="../static/js/ciudad.js"></script>
 {% endblock %}
