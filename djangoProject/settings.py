@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'handitour.apps.HanditourConfig',
+    'easy_maps',
 ]
+EASY_MAPS_GOOGLE_KEY = 'AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -79,6 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+
 }
 
 

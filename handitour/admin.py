@@ -9,3 +9,4 @@ admin.site.register(Aparcamiento)
 admin.site.register(Transporte)
 admin.site.register(Linea)
 admin.site.register(Parada)
+

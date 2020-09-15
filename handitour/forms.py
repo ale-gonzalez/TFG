@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 
 
+
 class LoginForm(forms.Form):
     usuario = forms.CharField(label='Usuario',
                               widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Usuario'}))
@@ -21,4 +22,3 @@ class AltaForm(UserCreationForm):
         super(AltaForm, self).__init__(*args, **kwargs)
         for field in self.fields:
             self.fields[field].widget.attrs.update({'class': 'form-control'})
-
