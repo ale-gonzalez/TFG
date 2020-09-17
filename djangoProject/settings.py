@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'handitour.apps.HanditourConfig',
-    'easy_maps',
 ]
 
 MIDDLEWARE = [
@@ -123,6 +122,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-EASY_MAPS_GOOGLE_KEY = "AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s"
-EASY_MAPS_ZOOM = 16
-EASY_MAPS_LANGUAGE = 'ru'
+

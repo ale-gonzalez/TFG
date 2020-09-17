@@ -1,5 +1,4 @@
 {% extends "base.html" %}
-{% load easy_maps_tags cache %}
 {% block title %}{{ ciudad }}{% endblock %}
 {% block nav %}
     <a class="nav-link" href="#">Alojamientos</a>
@@ -29,10 +28,7 @@
     </div>
     <div class="row">
         <div id="mapa">
-            {% cache 600 my_map ciudad.localizacion %}
-                {% easy_map ciudad.localizacion 300 400 %}
-            {% endcache %}
+
         </div>
     </div>
-
 {% endblock %}
