@@ -17,7 +17,7 @@
                     </a>
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title font-weight-bold"><a>{{ monumento.nombre }}</a></h4>
+                    <h4 class="card-title font-weight-bold" id="loca"><a>{{ monumento.nombre }}</a></h4>
                      <p class="card-text">{{ monumento.historia }}</p>
                     <hr class="my-4">
                     <a href="#" class="btn btn-flat deep-purple-text p-1 mx-0 mb-0">Más info</a>
@@ -27,7 +27,7 @@
     {% endfor %}
     </div>
     <div class="row">
-        <div id="mapa">
+        <div id="mapa" onload="initialize()">
 
         </div>
     </div>
