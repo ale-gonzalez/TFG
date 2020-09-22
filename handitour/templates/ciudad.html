@@ -28,10 +28,10 @@
     </div>
     <div class="row">
         <div id="mapa" onload="initialize()">
-
+            {% load easy_maps_tags %}
+{#            {% cache 600 mapa ciudad.localizacion %}#}
+                {% easy_map "Cádiz" 300 400 %}
+{#            {% endcache %}#}
         </div>
     </div>
-{% endblock %}
-{% block mapa %}
-    <script type="text/javascript" src="../static/js/ciudad.js"></script>
 {% endblock %}
