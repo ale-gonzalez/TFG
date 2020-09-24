@@ -51,4 +51,4 @@ def alta_usuario(request):
 def ciudad_monumento(request, id):
     ciudad = get_object_or_404(Ciudad, id=id)
     monumentos = Monumento.objects.filter(barrio__ciudad=ciudad)
-    return render(request, "ciudad.html", {'monumentos': monumentos})
+    return render(request, "ciudad.html", {'monumentos': monumentos, "encabezado":ciudad.nombre.upper()})
