@@ -29,9 +29,7 @@
     </div>
     <div class="row">
         <div id="mapa">
-{#            {% cache 600 mapa ciudad.localizacion %}#}
-                {% easy_map "Cádiz" 400 400 %}
-{#            {% endcache %}#}
+                {% easy_map "{{ ciudad.localizacion }}" 400 400 %}
         </div>
     </div>
 {% endblock %}

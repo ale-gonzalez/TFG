@@ -7,7 +7,7 @@ from django.urls import reverse
 class Ciudad(models.Model):
     nombre = models.CharField(max_length=30)
     historia = models.TextField(max_length=500)
-    localizacion = models.CharField(max_length=20)
+    localizacion = models.CharField(max_length=100)
     visitantes = models.ManyToManyField(User, blank=True)
     foto = models.FileField(null=True, upload_to="img/ciudad")
 
@@ -30,7 +30,7 @@ class Valoracion(models.Model):
 
 
 class Aparcamiento(models.Model):
-    localizacion = models.CharField(max_length=20)
+    localizacion = models.CharField(max_length=100)
     barrio = models.ForeignKey("Barrio", null=True, on_delete=models.CASCADE)
 
     def __str__(self):
@@ -40,7 +40,7 @@ class Aparcamiento(models.Model):
 class Alojamiento(models.Model):
     nombre = models.CharField(max_length=30)
     calificacion = models.PositiveIntegerField(default=1, validators=[MaxValueValidator(100), MinValueValidator(1)])
-    localizacion = models.CharField(max_length=20)
+    localizacion = models.CharField(max_length=100)
     foto = models.FileField(null=True, upload_to="img/alojamiento")
     barrio = models.ForeignKey("Barrio", null=True, on_delete=models.CASCADE)
 
@@ -61,7 +61,7 @@ class Linea(models.Model):
 class Barrio(models.Model):
     nombre = models.CharField(max_length=30)
     historia = models.TextField(max_length=500)
-    localizacion = models.CharField(max_length=20)
+    localizacion = models.CharField(max_length=100)
     foto = models.FileField(null=True, upload_to="img/barrio")
     ciudad = models.ForeignKey("Ciudad", on_delete=models.CASCADE)
 
@@ -73,7 +73,7 @@ class Monumento(models.Model):
     nombre = models.CharField(max_length=30)
     agno_inaguracion = models.CharField(max_length=9)
     historia = models.TextField(max_length=500)
-    localizacion = models.CharField(max_length=30)
+    localizacion = models.CharField(max_length=100)
     precio_pers = models.DecimalField(default=0, max_digits=4, decimal_places=2)
     precio_disc = models.DecimalField(default=0, max_digits=4, decimal_places=2)
     barrio = models.ForeignKey("Barrio", null = True, on_delete=models.CASCADE)
@@ -85,7 +85,7 @@ class Monumento(models.Model):
 
 class Parada(models.Model):
     nombre = models.CharField(max_length=30)
-    localizacion = models.CharField(max_length=30)
+    localizacion = models.CharField(max_length=100)
     lineas = models.ManyToManyField("Linea")
     barrio = models.ForeignKey("Barrio", on_delete=models.CASCADE)
 
