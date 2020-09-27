@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% load easy_maps_tags %}
+{% load easy_maps_tags cache %}
 {% block title %}{{ ciudad }}{% endblock %}
 {% block nav %}
     <a class="nav-link" href="#">Alojamientos</a>
@@ -8,8 +8,8 @@
 {% endblock %}
 {% block content %}
     <div class="row">
-        {% for monumento in monumentos %}
-            <div class="col-md-12 col-lg-6 mt-3" style="height: 600px; width: 200px; overflow: scroll;">
+             <div class="col-md-12 col-lg-6 mt-3" style="height: 600px; width: 200px; overflow: scroll;">
+                 {% for monumento in monumentos %}
                 <div class="card booking-card">
                   <div class="view overlay">
                     <img class="card-img-top" src="{{ monumento.foto.url }}" alt="Card image cap">
@@ -24,12 +24,15 @@
                     <a href="#" class="btn btn-flat deep-purple-text p-1 mx-0 mb-0">Más info</a>
                   </div>
                 </div>
-    </div>
+
     {% endfor %}
     </div>
-    <div class="row">
+    <div class="col-lg-6 mt-3">
         <div id="mapa">
-                {% easy_map "{{ ciudad.localizacion }}" 400 400 %}
+            {% cache 600 mapa ciudad.localizacion %}
+                {% easy_map ciudad.localizacion 600 600 %}
+            {% endcache %}
         </div>
+    </div>
     </div>
 {% endblock %}
