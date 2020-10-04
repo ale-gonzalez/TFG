@@ -30,7 +30,9 @@
     <div class="col-lg-6 mt-3">
         <div id="mapa">
             {% cache 600 mapa ciudad.localizacion %}
-                {% easy_map ciudad.localizacion 600 600 %}
+                 {% for monunento in monumentos %}
+                    {% easy_map monunento.localizacion 600 600 %}
+                {% endfor %}
             {% endcache %}
         </div>
     </div>
