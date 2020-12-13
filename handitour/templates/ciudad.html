@@ -1,6 +1,4 @@
 {% extends "base.html" %}
-{% load easy_maps_tags %}
-{% load easy_maps_tags cache %}
 {% block title %}{{ ciudad }}{% endblock %}
 {% block nav %}
     <a class="nav-link" href="#">Alojamientos</a>
@@ -30,11 +28,6 @@
     </div>
     <div class="col-lg-6 mt-3">
         <div id="mapa">
-            {% cache 600 mapa ciudad.localizacion %}
-                 {% for monunento in monumentos %}
-                    {% easy_map monunento.localizacion 600 600 %}
-                {% endfor %}
-            {% endcache %}
         </div>
     </div>
     </div>

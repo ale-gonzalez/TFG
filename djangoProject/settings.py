@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'handitour.apps.HanditourConfig',
-    'easy_maps',
 ]
 
 MIDDLEWARE = [
@@ -50,8 +49,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
-EASY_MAPS_GOOGLE_KEY = 'AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s'
 
 
 ROOT_URLCONF = 'djangoProject.urls'
