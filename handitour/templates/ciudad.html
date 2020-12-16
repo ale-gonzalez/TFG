@@ -27,8 +27,33 @@
     {% endfor %}
     </div>
     <div class="col-lg-6 mt-3">
-        <div id="mapa">
+        <div id="mapa" style="height: 500px; width: 500px">
         </div>
     </div>
     </div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s"></script>
+<script>
+    $.ajax ({
+				url: 'http://api.openweathermap.org/data/2.5/weather?q={{ ciudad.localizacion }}&appid=56e7f8df614ab835faf46925f4e305e0',
+				type: 'POST',
+				data: {
+
+				},
+				dataType: 'text',
+				success: function(data) {
+					datos = JSON.parse(data);
+
+                map = new google.maps.Map(document.getElementById('mapa'), {
+                  center: {lat: datos.coord.lat, lng: datos.coord.lon},
+                  zoom: 8
+
+                });
+                alert("dentro")
+				},
+				error: function() {
+					alert("fuera");
+				},
+			});
+    alert("hola")
+</script>
 {% endblock %}

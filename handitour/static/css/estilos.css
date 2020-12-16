@@ -3,3 +3,7 @@ header{
     text-align: center;
     width: 100%;
 }
+#mapa{
+    width: 500px !important;
+    height: 500px !important;
+}
