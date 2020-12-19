@@ -26,6 +26,9 @@
 
     {% endfor %}
     </div>
+    {% for d in data %}
+    <p>{{ d }}</p>
+    {% endfor %}
     <div class="col-lg-6 mt-3">
         <div id="mapa" style="height: 500px; width: 500px">
         </div>
@@ -34,25 +37,26 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s"></script>
 <script>
 let map
-		$.ajax ({
-			url: 'https://maps.googleapis.com/maps/api/geocode/json?address={{ciudad.localizacion}}&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s',
-			type: 'POST',
-			data: {
+let localizacion = '{{ ciudad.localizacion }}'
+$(document).ready(function () {
+    $.ajax({
+        url: 'https://maps.googleapis.com/maps/api/geocode/json?address='+localizacion+'&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s',
+        type: 'POST',
+        dataType: 'text',
+        success: function (data) {
+            datos = JSON.parse(data);
+            alert("awebonao");
+            //map = new google.maps.Map(document.getElementById("mapa"), {
+            //    center: {lat: datos.location.lat, lng: datos.location.lng},
+           //     zoom: 8,
+            //});
 
-			},
-			dataType: 'text',
-			success: function(data) {
-				datos = JSON.parse(data);
-				  map = new google.maps.Map(document.getElementById("mapa"), {
-				  center: { lat: datos.location.lat, lng: datos.location.lng },
-                  zoom: 8,
-                  });
-                alert("dentro")
-			},
-			error: function() {
-				alert("No hemos podido insertar");
-			},
-		});
+        },
+        error: function () {
+            alert("No hemos podido insertar");
+        },
+    });
+});
 
 </script>
 {% endblock %}

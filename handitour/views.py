@@ -50,5 +50,7 @@ def alta_usuario(request):
 
 def ciudad_monumento(request, id):
     ciudad = get_object_or_404(Ciudad, id=id)
+    URL = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + ciudad.localizacion + '&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s'
+    data = request.GET(URL)
     monumentos = Monumento.objects.filter(barrio__ciudad=ciudad)
-    return render(request, "ciudad.html", {"monumentos": monumentos, "encabezado":ciudad.nombre.upper(), "ciudad":ciudad })
+    return render(request, "ciudad.html", {"monumentos": monumentos, "encabezado":ciudad.nombre.upper(), "ciudad":ciudad, 'data': data })
