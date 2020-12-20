@@ -26,9 +26,6 @@
 
     {% endfor %}
     </div>
-    {% for d in data %}
-    <p>{{ d }}</p>
-    {% endfor %}
     <div class="col-lg-6 mt-3">
         <div id="mapa" style="height: 500px; width: 500px">
         </div>
@@ -39,17 +36,18 @@
 let map
 let localizacion = '{{ ciudad.localizacion }}'
 $(document).ready(function () {
-    $.ajax({
+    $.ajax(
+        {
         url: 'https://maps.googleapis.com/maps/api/geocode/json?address='+localizacion+'&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s',
-        type: 'POST',
+        type: 'GET',
         dataType: 'text',
         success: function (data) {
             datos = JSON.parse(data);
-            alert("awebonao");
-            //map = new google.maps.Map(document.getElementById("mapa"), {
-            //    center: {lat: datos.location.lat, lng: datos.location.lng},
-           //     zoom: 8,
-            //});
+
+            map = new google.maps.Map(document.getElementById("mapa"), {
+                center: {lat: parseFloat(datos.results[0].geometry.location.lat) , lng: parseFloat(datos.results[0].geometry.location.lng)},
+                zoom: 15,
+            });
 
         },
         error: function () {
