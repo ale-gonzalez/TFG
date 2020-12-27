@@ -20,7 +20,7 @@
                     <h4 class="card-title font-weight-bold" id="loca"><a>{{ monumento.nombre }}</a></h4>
                      <p class="card-text">{{ monumento.historia }}</p>
                     <hr class="my-4">
-                    <a href="#" class="btn btn-flat deep-purple-text p-1 mx-0 mb-0">Más info</a>
+                    <a href="{{ monumento.get_absolute_url }}" class="btn btn-flat deep-purple-text p-1 mx-0 mb-0">Más info</a>
                   </div>
                 </div>
 
@@ -34,7 +34,6 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s"></script>
 <script>
 let map
-let localizacion = '{{ ciudad.localizacion }}'
 $(document).ready(function () {
     $.ajax(
         {
@@ -48,10 +47,9 @@ $(document).ready(function () {
                 center: {lat: parseFloat(datos.results[0].geometry.location.lat) , lng: parseFloat(datos.results[0].geometry.location.lng)},
                 zoom: 15,
             });
-            debugger;
         },
         error: function () {
-            alert("No hemos podido insertar");
+            alert("No hemos podido encontrar resultados");
         },
     });
     {% for monumento in monumentos %}
@@ -68,7 +66,7 @@ $(document).ready(function () {
           });
         },
         error: function () {
-            alert("No hemos podido insertar");
+            alert("No hemos podido encontrar resultados");
         },
     });
     {% endfor %}

@@ -52,3 +52,8 @@ def ciudad_monumento(request, id):
     ciudad = get_object_or_404(Ciudad, id=id)
     monumentos = Monumento.objects.filter(barrio__ciudad=ciudad)
     return render(request, "ciudad.html", {"monumentos": monumentos, "encabezado": ciudad.nombre.upper(), "ciudad":  ciudad})
+
+
+def detalle_monumento(request, id):
+    monumento = get_object_or_404(Monumento, id=id)
+    return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper()})

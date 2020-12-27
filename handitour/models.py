@@ -18,7 +18,6 @@ class Ciudad(models.Model):
         return self.nombre
 
 
-
 class Valoracion(models.Model):
     calificacion = models.PositiveIntegerField(default=1, validators=[MaxValueValidator(100), MinValueValidator(1)])
     comentario = models.CharField(max_length=500)
@@ -81,6 +80,9 @@ class Monumento(models.Model):
 
     def __str__(self):
         return self.nombre
+
+    def get_absolute_url(self):
+        return reverse("monumento_detalle", args=[self.id])
 
 
 class Parada(models.Model):
