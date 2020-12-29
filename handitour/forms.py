@@ -2,7 +2,7 @@ from django.forms import ModelForm
 from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
-
+from .models import Valoracion
 
 
 class LoginForm(forms.Form):
@@ -20,5 +20,17 @@ class AltaForm(UserCreationForm):
 
     def __init__(self, *args, **kwargs):
         super(AltaForm, self).__init__(*args, **kwargs)
+        for field in self.fields:
+            self.fields[field].widget.attrs.update({'class': 'form-control'})
+
+
+class ValoracionForm(forms.Form):
+    class Meta:
+        model = Valoracion
+        fields = ['calificacion', 'comentario']
+        labels = {'calificacion': "Calificación", 'comentario': "Comentario"}
+
+    def __init__(self, *args, **kwargs):
+        super(ValoracionForm, self).__init__(*args, **kwargs)
         for field in self.fields:
             self.fields[field].widget.attrs.update({'class': 'form-control'})

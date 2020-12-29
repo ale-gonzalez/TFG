@@ -5,41 +5,40 @@
     <div class="row">
         <div class="col-md-12 col-lg-4 mt-3" style="height: 600px; width: 200px; overflow: scroll;">
             <table>
-        <thead>
-            <tr>
-                <th>Descripción</th>
-                <td>{{ monumento.historia }}</td>
-            </tr>
-            <tr>
-                <th>Año de inaguración</th>
-                <td>{{ monumento.agno_inaguracion }}</td>
-            </tr>
-            <tr>
-                <th>Precio pers</th>
-                <td>{{ monumento.precio_pers }}</td>
-            </tr>
-            <tr>
-                <th>Precio disc</th>
-                <td>{{ monumento.precio_disc }}</td>
-            </tr>
-            <tr>
-                <th>Barrio</th>
-                <td>{{ monumento.barrio }}</td>
-            </tr>
-        </thead>
+                <thead>
+                    <tr>
+                        <th>Descripción</th>
+                        <td>{{ monumento.historia }}</td>
+                    </tr>
+                    <tr>
+                        <th>Año de inaguración</th>
+                        <td>{{ monumento.agno_inaguracion }}</td>
+                    </tr>
+                    <tr>
+                        <th>Precio pers</th>
+                        <td>{{ monumento.precio_pers }}</td>
+                    </tr>
+                    <tr>
+                        <th>Precio disc</th>
+                        <td>{{ monumento.precio_disc }}</td>
+                    </tr>
+                    <tr>
+                        <th>Barrio</th>
+                        <td>{{ monumento.barrio }}</td>
+                    </tr>
+                </thead>
                 </table>
-
         </div>
         <div class="col-md-12 col-lg-4 mt-3">
              <img src="{{monumento.foto.url}}" id="imgmonumento" alt="...">
         </div>
-    </div>
-
-    <div class="row">
-        <div class="col-lg-6 mt-3">
+        <div class="col-md-12 col-lg-4 mt-3">
             <div id="mapa" style="height: 500px; width: 500px">
             </div>
         </div>
+    </div>
+    <div class="row">
+
     </div>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s"></script>
 <script>
