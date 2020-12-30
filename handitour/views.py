@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Ciudad, Monumento
-from .forms import LoginForm, AltaForm
+from .forms import LoginForm, AltaForm, ValoracionForm
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 
@@ -57,3 +57,17 @@ def ciudad_monumento(request, id):
 def detalle_monumento(request, id):
     monumento = get_object_or_404(Monumento, id=id)
     return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper()})
+
+
+@login_required()
+def comentario(request):
+    if request.POST:
+        form = ValoracionForm(request.POST)
+        if form.is_valid():
+            comentario = form.save()
+            return redirect('/inicio')
+        else:
+            return render(request, "monumento.html", {'form': form})
+    else:
+        form = LoginForm()
+        return render(request, "monumento.html", {'form': form})

@@ -27,7 +27,7 @@
                         <td>{{ monumento.barrio }}</td>
                     </tr>
                 </thead>
-                </table>
+            </table>
         </div>
         <div class="col-md-12 col-lg-4 mt-3">
              <img src="{{monumento.foto.url}}" id="imgmonumento" alt="...">
@@ -38,7 +38,11 @@
         </div>
     </div>
     <div class="row">
-
+        <form action="." method="POST" enctype="multipart/form-data" id="alta">
+        {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-primary form-control">Comentar</button>
+    </form>
     </div>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s"></script>
 <script>

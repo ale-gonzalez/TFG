@@ -27,8 +27,7 @@ class AltaForm(UserCreationForm):
 class ValoracionForm(forms.Form):
     class Meta:
         model = Valoracion
-        fields = ['calificacion', 'comentario']
-        labels = {'calificacion': "Calificación", 'comentario': "Comentario"}
+        fields = '__all__'
 
     def __init__(self, *args, **kwargs):
         super(ValoracionForm, self).__init__(*args, **kwargs)
