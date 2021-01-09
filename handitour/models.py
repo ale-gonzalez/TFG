@@ -22,7 +22,7 @@ class Valoracion(models.Model):
     calificacion = models.PositiveIntegerField(default=1, validators=[MaxValueValidator(100), MinValueValidator(1)])
     comentario = models.TextField(max_length=500)
     usuario = models.ForeignKey(User, on_delete=models.CASCADE)
-    monumentos = models.ForeignKey("Monumento", on_delete=models.CASCADE)
+    monumento = models.ForeignKey("Monumento", on_delete=models.CASCADE)
 
     def __str__(self):
         return self.usuario + ":" + self.comentario

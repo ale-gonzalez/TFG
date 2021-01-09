@@ -56,21 +56,16 @@ def ciudad_monumento(request, id):
 
 def detalle_monumento(request, id):
     monumento = get_object_or_404(Monumento, id=id)
-
     if request.POST:
         form = ValoracionForm(request.POST)
         if form.is_valid():
             comentario = form.save()
-            return redirect('/inicio')
+            return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form})
         else:
-            return render(request, "monumento.html", {'form': form})
+            return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form})
     else:
-        #form = ValoracionForm()
-    #    return render(request, "monumento.html", {'form': form})
-        #return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper()}, {"form": form} )
-
-
-        return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper()})
+        form = ValoracionForm(request.POST)
+        return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form} )
 
 
 @login_required()
