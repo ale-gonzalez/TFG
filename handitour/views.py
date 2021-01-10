@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import render, redirect, get_object_or_404, reverse
 from .models import Ciudad, Monumento
 from .forms import LoginForm, AltaForm, ValoracionForm
 from django.contrib.auth import authenticate, login, logout
@@ -59,12 +59,13 @@ def detalle_monumento(request, id):
     if request.POST:
         form = ValoracionForm(request.POST)
         if form.is_valid():
-            comentario = form.save()
-            return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form})
+            form.save()
+            return reverse("handitour:monumento_detalle", args=[id])
+            #return redirect("/monumento/"+id+"/")
         else:
             return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form})
     else:
-        form = ValoracionForm(request.POST)
+        form = ValoracionForm()
         return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form} )
 
 
