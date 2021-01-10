@@ -60,7 +60,7 @@ def detalle_monumento(request, id):
         form = ValoracionForm(request.POST)
         if form.is_valid():
             form.save()
-            return reverse("handitour:monumento_detalle", args=[id])
+            return redirect(reverse("handitour:monumento_detalle", args=[id]))
             #return redirect("/monumento/"+id+"/")
         else:
             return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form})

@@ -24,12 +24,12 @@ class AltaForm(UserCreationForm):
             self.fields[field].widget.attrs.update({'class': 'form-control'})
 
 
-class ValoracionForm(forms.Form):
+class ValoracionForm(forms.ModelForm):
     class Meta:
         model = Valoracion
         fields = '__all__'
 
-    # def __init__(self, *args, **kwargs):
-    #     super(ValoracionForm, self).__init__(*args, **kwargs)
-    #     for field in self.fields:
-    #         self.fields[field].widget.attrs.update({'class': 'form-control'})
+    def __init__(self, *args, **kwargs):
+        super(ValoracionForm, self).__init__(*args, **kwargs)
+        for field in self.fields:
+            self.fields[field].widget.attrs.update({'class': 'form-control'})
