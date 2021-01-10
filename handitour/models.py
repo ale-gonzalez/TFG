@@ -12,7 +12,7 @@ class Ciudad(models.Model):
     foto = models.FileField(null=True, upload_to="img/ciudad")
 
     def get_absolute_url(self):
-        return reverse("ciudad_monumento", args=[self.id])
+        return reverse("handitour:ciudad_monumento", args=[self.id])
 
     def __str__(self):
         return self.nombre
@@ -25,7 +25,7 @@ class Valoracion(models.Model):
     monumento = models.ForeignKey("Monumento", on_delete=models.CASCADE)
 
     def __str__(self):
-        return self.usuario + ":" + self.comentario
+        return str(self.usuario) + ":" + self.comentario
 
 
 class Aparcamiento(models.Model):
@@ -82,7 +82,7 @@ class Monumento(models.Model):
         return self.nombre
 
     def get_absolute_url(self):
-        return reverse("monumento_detalle", args=[self.id])
+        return reverse("handitour:monumento_detalle", args=[self.id])
 
 
 class Parada(models.Model):
