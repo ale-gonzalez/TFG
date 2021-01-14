@@ -65,5 +65,5 @@ def detalle_monumento(request, id):
             return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form})
     else:
         form = ValoracionForm()
-        return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form} )
+        return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form})
 
