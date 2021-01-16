@@ -56,14 +56,16 @@ def ciudad_monumento(request, id):
 
 def detalle_monumento(request, id):
     monumento = get_object_or_404(Monumento, id=id)
+    valoraciones = Valoracion.objects.all()
+    comentarios = valoraciones.filter(monumento_id=id)
     if request.POST:
         form = ValoracionForm(request.POST)
         if form.is_valid():
             form.save()
             return redirect(reverse("handitour:monumento_detalle", args=[id]))
         else:
-            return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form})
+            return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form, "comentarios": comentarios})
     else:
         form = ValoracionForm()
-        return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form})
+        return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form, "comentarios": comentarios})
 

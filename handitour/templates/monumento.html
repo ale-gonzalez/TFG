@@ -44,12 +44,20 @@
                 {{ form.as_p }}
                 <button type="submit" class="btn btn-primary form-control">Comentar</button>
             </form>
+        {% else %}
+            <p>Por favor, haga <a href="/login">Log in</a> para comentar </p>
+        {% endif %}
+    </div>
 
-    {% else %}
-        <p>Por favor, haga <a href="/login">Log in</a> para comentar </p>
-    {% endif %}
-
-     </div>
+    <div class="row">
+        {% if comentarios %}
+            {% for comentario in comentarios %}
+                {{ comentario }}
+            {% endfor %}
+        {% else %}
+            <p>Se el primero en comentar </p>
+        {% endif %}
+    </div>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s"></script>
 <script>
 let map
