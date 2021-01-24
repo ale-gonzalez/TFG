@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404, reverse
 from .models import Ciudad, Monumento, Valoracion
 from .forms import LoginForm, AltaForm, ValoracionForm
-from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth import authenticate, login, logout, get_user
 from django.contrib.auth.decorators import login_required
 
 # Create your views here.

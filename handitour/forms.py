@@ -28,6 +28,7 @@ class ValoracionForm(forms.ModelForm):
     class Meta:
         model = Valoracion
         fields = '__all__'
+        widgets = {'monumento': forms.HiddenInput, 'usuario': forms.HiddenInput}
 
     def __init__(self, *args, **kwargs):
         super(ValoracionForm, self).__init__(*args, **kwargs)
