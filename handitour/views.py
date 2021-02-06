@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404, reverse
-from .models import Ciudad, Monumento, Valoracion
+from .models import Ciudad, Monumento, Valoracion, Alojamiento
 from .forms import LoginForm, AltaForm, ValoracionForm
 from django.contrib.auth import authenticate, login, logout, get_user
 from django.contrib.auth.decorators import login_required
@@ -69,3 +69,8 @@ def detalle_monumento(request, id):
         form = ValoracionForm(initial={'usuario':get_user(request),'monumento':monumento})
         return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form, "comentarios": comentarios})
 
+
+def ciudad_alojamiento(request, id):
+    ciudad = get_object_or_404(Ciudad, id=id)
+    alojamientos = Alojamiento.objects.filter(barrio__ciudad=ciudad)
+    return render(request, "alojamientos.html", {"alojamientos": alojamientos, "encabezado": ciudad.nombre.upper() + " - ALOJAMIENTOS", "ciudad":  ciudad})

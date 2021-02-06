@@ -1,26 +1,26 @@
 {% extends "base.html" %}
 {% block title %}{{ ciudad }}{% endblock %}
 {% block nav %}
-    <a class="nav-link" href="alojamiento/{{ ciudad.id }}">Alojamientos</a>
+    <a class="nav-link" href="#">Alojamientos</a>
     <a class="nav-link" href="#">Transportes</a>
 
 {% endblock %}
 {% block content %}
     <div class="row">
              <div class="col-md-12 col-lg-6 mt-3" style="height: 600px; width: 200px; overflow: scroll;">
-                 {% for monumento in monumentos %}
+                 {% for alojamiento in alojamientos %}
                 <div class="card booking-card">
                   <div class="view overlay">
-                    <img class="card-img-top" src="{{ monumento.foto.url }}" alt="Card image cap">
+                    <img class="card-img-top" src="{{ alojamiento.foto.url }}" alt="Card image cap">
                     <a href="#">
                       <div class="mask rgba-white-slight"></div>
                     </a>
                   </div>
                   <div class="card-body">
-                    <h4 class="card-title font-weight-bold" id="loca"><a>{{ monumento.nombre }}</a></h4>
-                     <p class="card-text">{{ monumento.historia }}</p>
+                    <h4 class="card-title font-weight-bold" id="loca"><a>{{ alojamiento.nombre }}</a></h4>
+                     <p class="card-text">{{ alojamiento.valoracion }}</p>
                     <hr class="my-4">
-                    <a href="{{ monumento.get_absolute_url }}" class="btn btn-flat deep-purple-text p-1 mx-0 mb-0">Más info</a>
+                    <a href="{{ alojamiento.get_absolute_url }}" class="btn btn-flat deep-purple-text p-1 mx-0 mb-0">Más info</a>
                   </div>
                 </div>
 
@@ -52,10 +52,10 @@ $(document).ready(function () {
             alert("No hemos podido encontrar resultados");
         },
     });
-    {% for monumento in monumentos %}
+    {% for alojamiento in alojamientos %}
     $.ajax(
         {
-        url: 'https://maps.googleapis.com/maps/api/geocode/json?address={{monumento.localizacion}}&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s',
+        url: 'https://maps.googleapis.com/maps/api/geocode/json?address={{alojamiento.localizacion}}&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s',
         type: 'GET',
         dataType: 'text',
         success: function (data) {

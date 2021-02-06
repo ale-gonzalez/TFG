@@ -46,6 +46,9 @@ class Alojamiento(models.Model):
     def __str__(self):
         return self.nombre
 
+    def get_absolute_url(self):
+        return reverse("handitour:ciudad_alojamiento", args=[self.id])
+
 
 class Linea(models.Model):
     numero_nombre = models.CharField(max_length=30)
