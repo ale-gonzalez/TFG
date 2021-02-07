@@ -74,3 +74,8 @@ def ciudad_alojamiento(request, id):
     ciudad = get_object_or_404(Ciudad, id=id)
     alojamientos = Alojamiento.objects.filter(barrio__ciudad=ciudad)
     return render(request, "alojamientos.html", {"alojamientos": alojamientos, "encabezado": ciudad.nombre.upper() + " - ALOJAMIENTOS", "ciudad":  ciudad})
+
+
+def detalle_alojamiento(request, id):
+    alojamiento = get_object_or_404(Alojamiento, id=id)
+    return  render(request, "alojamiento.html", {"alojamiento": alojamiento, "encabezado": alojamiento.nombre.upper()})

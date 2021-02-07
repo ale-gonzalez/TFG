@@ -47,7 +47,7 @@ class Alojamiento(models.Model):
         return self.nombre
 
     def get_absolute_url(self):
-        return reverse("handitour:ciudad_alojamiento", args=[self.id])
+        return reverse("handitour:alojamiento_detalle", args=[self.id])
 
 
 class Linea(models.Model):
