@@ -78,4 +78,4 @@ def ciudad_alojamiento(request, id):
 
 def detalle_alojamiento(request, id):
     alojamiento = get_object_or_404(Alojamiento, id=id)
-    return  render(request, "alojamiento.html", {"alojamiento": alojamiento, "encabezado": alojamiento.nombre.upper()})
+    return render(request, "alojamiento.html", {"alojamiento": alojamiento, "encabezado": alojamiento.nombre.upper()})
