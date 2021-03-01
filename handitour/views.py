@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404, reverse
-from .models import Ciudad, Monumento, Valoracion, Alojamiento
+from .models import Ciudad, Monumento, Valoracion, Alojamiento, Barrio
 from .forms import LoginForm, AltaForm, ValoracionForm
 from django.contrib.auth import authenticate, login, logout, get_user
 from django.contrib.auth.decorators import login_required
@@ -56,8 +56,7 @@ def ciudad_monumento(request, id):
 
 def detalle_monumento(request, id):
     monumento = get_object_or_404(Monumento, id=id)
-    valoraciones = Valoracion.objects.all()
-    comentarios = valoraciones.filter(monumento_id=id)
+    comentarios = Valoracion.objects.all().filter(monumento_id=id)
     if request.POST:
         form = ValoracionForm(request.POST)
         if form.is_valid():
@@ -73,7 +72,8 @@ def detalle_monumento(request, id):
 def ciudad_alojamiento(request, id):
     ciudad = get_object_or_404(Ciudad, id=id)
     alojamientos = Alojamiento.objects.filter(barrio__ciudad=ciudad)
-    return render(request, "alojamientos.html", {"alojamientos": alojamientos, "encabezado": ciudad.nombre.upper() + " - ALOJAMIENTOS", "ciudad":  ciudad})
+    barrios = Barrio.objects.all().filter(ciudad_id=id)
+    return render(request, "alojamientos.html", {"alojamientos": alojamientos, "encabezado": ciudad.nombre.upper() + " - ALOJAMIENTOS", "ciudad":  ciudad, "barrios":barrios})
 
 
 def detalle_alojamiento(request, id):
