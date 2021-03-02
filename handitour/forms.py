@@ -2,8 +2,8 @@ from django.forms import ModelForm
 from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
-from .models import Valoracion
-
+from .models import Valoracion, Ciudad, Barrio
+from django.shortcuts import get_object_or_404
 
 class LoginForm(forms.Form):
     usuario = forms.CharField(label='Usuario',
@@ -24,7 +24,7 @@ class AltaForm(UserCreationForm):
             self.fields[field].widget.attrs.update({'class': 'form-control'})
 
 
-class ValoracionForm(forms.ModelForm):
+class ValoracionForm(ModelForm):
     class Meta:
         model = Valoracion
         fields = '__all__'
@@ -34,3 +34,15 @@ class ValoracionForm(forms.ModelForm):
         super(ValoracionForm, self).__init__(*args, **kwargs)
         for field in self.fields:
             self.fields[field].widget.attrs.update({'class': 'form-control'})
+
+
+class FiltroForm(forms.Form):
+    barrio = forms.ChoiceField
+
+    def __init__(self, id, **kwargs):
+        super(FiltroForm, self).__init__(**kwargs)
+        if id:
+            ciudad = get_object_or_404(Ciudad, id=id)
+            self.fields['barrio'].queryset = Barrio.objects.filter(ciudad__barrio=ciudad)
+
+# barrios = Barrio.objects.all().filter(ciudad_id=id)
