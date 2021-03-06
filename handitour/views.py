@@ -72,7 +72,12 @@ def detalle_monumento(request, id):
 def ciudad_alojamiento(request, id):
     ciudad = get_object_or_404(Ciudad, id=id)
     alojamientos = Alojamiento.objects.filter(barrio__ciudad=ciudad)
-    form = FiltroForm(ciudad.id)
+    form = FiltroForm(ciudad.id, request.POST)
+    if request.POST:
+        if form.is_valid():
+            barrio = form.cleaned_data.get('barrio')
+            seleccionado = Barrio.objects.filter(ciudad__barrio=ciudad)
+            print(seleccionado)
     return render(request, "alojamientos.html", {"alojamientos": alojamientos, "encabezado": ciudad.nombre.upper() + " - ALOJAMIENTOS", "ciudad":  ciudad, "form": form})
 
 

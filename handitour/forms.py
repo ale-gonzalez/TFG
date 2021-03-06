@@ -1,4 +1,4 @@
-from django.forms import ModelForm
+from django.forms import ModelForm, ModelChoiceField
 from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
@@ -37,12 +37,11 @@ class ValoracionForm(ModelForm):
 
 
 class FiltroForm(forms.Form):
-    barrio = forms.ChoiceField
+    barrio = ModelChoiceField(queryset=None, required=False)
 
-    def __init__(self, id, **kwargs):
-        super(FiltroForm, self).__init__(**kwargs)
+    def __init__(self, id, *args, **kwargs):
+        super(FiltroForm, self).__init__(*args, **kwargs)
         if id:
             ciudad = get_object_or_404(Ciudad, id=id)
-            self.fields['barrio'].queryset = Barrio.objects.filter(ciudad__barrio=ciudad)
+            self.fields['barrio'].queryset = ciudad.barrio_set.all()
 
-# barrios = Barrio.objects.all().filter(ciudad_id=id)
