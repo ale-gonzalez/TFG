@@ -43,8 +43,7 @@
 <script>
 let map
 $(document).ready(function () {
-    $.ajax(
-        {
+    $.ajax({
         url: 'https://maps.googleapis.com/maps/api/geocode/json?address={{ciudad.localizacion}}&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s',
         type: 'GET',
         dataType: 'text',
@@ -61,8 +60,7 @@ $(document).ready(function () {
         },
     });
     {% for alojamiento in alojamientos %}
-    $.ajax(
-        {
+    $.ajax({
         url: 'https://maps.googleapis.com/maps/api/geocode/json?address={{alojamiento.localizacion}}&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s',
         type: 'GET',
         dataType: 'text',
