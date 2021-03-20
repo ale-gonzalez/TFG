@@ -76,8 +76,8 @@ def ciudad_alojamiento(request, id):
     if request.POST:
         if form.is_valid():
             seleccionado = form.cleaned_data.get('barrio')
-            barrio = Barrio.objects.all().filter(nombre=seleccionado)
-            alojamientos = Alojamiento.objects.all().filter(barrio=barrio[0])
+            barrio = Barrio.objects.all().filter(nombre=seleccionado)[0]
+            alojamientos = Alojamiento.objects.all().filter(barrio=barrio)
             return render(request, "alojamientos.html", {"alojamientos": alojamientos, "encabezado": ciudad.nombre.upper() + " - ALOJAMIENTOS", "ciudad": ciudad, "form": form, "barrio": barrio})
     else:
         form = FiltroForm(ciudad.id, request.POST)

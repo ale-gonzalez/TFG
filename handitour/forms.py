@@ -41,6 +41,8 @@ class FiltroForm(forms.Form):
 
     def __init__(self, id, *args, **kwargs):
         super(FiltroForm, self).__init__(*args, **kwargs)
+        for field in self.fields:
+            self.fields[field].widget.attrs.update({'class': 'form-control'})
         if id:
             ciudad = get_object_or_404(Ciudad, id=id)
             self.fields['barrio'].queryset = ciudad.barrio_set.all()

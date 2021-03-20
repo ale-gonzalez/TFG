@@ -43,7 +43,42 @@
 <script>
 let map
 $(document).ready(function () {
+    {% if barrio %}
+        $.ajax({
+        url: 'https://maps.googleapis.com/maps/api/geocode/json?address={{barrio.localizacion}}&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s',
+        type: 'GET',
+        dataType: 'text',
+        success: function (data) {
+            datos = JSON.parse(data);
+
+            map = new google.maps.Map(document.getElementById("mapa"), {
+                center: {lat: parseFloat(datos.results[0].geometry.location.lat) , lng: parseFloat(datos.results[0].geometry.location.lng)},
+                zoom: 15,
+            });
+        },
+        error: function () {
+            alert("No hemos podido encontrar resultados");
+        },
+    });
+    {% for alojamiento in alojamientos %}
     $.ajax({
+        url: 'https://maps.googleapis.com/maps/api/geocode/json?address={{alojamiento.localizacion}}&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s',
+        type: 'GET',
+        dataType: 'text',
+        success: function (data) {
+            datos = JSON.parse(data);
+            const marker = new google.maps.Marker({
+            position: {lat: parseFloat(datos.results[0].geometry.location.lat) , lng: parseFloat(datos.results[0].geometry.location.lng)},
+            map: map,
+          });
+        },
+        error: function () {
+            alert("No hemos podido encontrar resultados");
+        },
+    });
+    {% endfor %}
+    {% else %}
+        $.ajax({
         url: 'https://maps.googleapis.com/maps/api/geocode/json?address={{ciudad.localizacion}}&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s',
         type: 'GET',
         dataType: 'text',
@@ -76,6 +111,7 @@ $(document).ready(function () {
         },
     });
     {% endfor %}
+    {% endif %}
 });
 
 </script>
