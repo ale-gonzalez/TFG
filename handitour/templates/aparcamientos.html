@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block title %}{{ ciudad }}{% endblock %}
+{% block nav %}
+    <a class="nav-link" href="/alojamientos/{{ ciudad.id }}">Alojamientos</a>
+    <a class="nav-link" href="#">Transportes</a>
+
+{% endblock %}
+{% block content %}
+    <div class="row">
+                <form action="." method="POST" enctype="multipart/form-data" id="buscar">
+                {% csrf_token %}
+                    {{ form.as_p }}
+                    <button type="submit" class="btn btn-primary form-control">Buscar</button>
+                </form>
+    <div>
+        <div id="mapa" style="height: 500px; width: 500px">
+        </div>
+    </div>
+    </div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s"></script>
+<script>
+let map
+$(document).ready(function () {
+    {% if barrio %}
+        $.ajax({
+        url: 'https://maps.googleapis.com/maps/api/geocode/json?address={{barrio.localizacion}}&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s',
+        type: 'GET',
+        dataType: 'text',
+        success: function (data) {
+            datos = JSON.parse(data);
+
+            map = new google.maps.Map(document.getElementById("mapa"), {
+                center: {lat: parseFloat(datos.results[0].geometry.location.lat) , lng: parseFloat(datos.results[0].geometry.location.lng)},
+                zoom: 15,
+            });
+        },
+        error: function () {
+            alert("No hemos podido encontrar resultados");
+        },
+    });
+    {% for aparcamiento in aparcamientos %}
+    $.ajax({
+        url: 'https://maps.googleapis.com/maps/api/geocode/json?address={{aparcamiento.localizacion}}&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s',
+        type: 'GET',
+        dataType: 'text',
+        success: function (data) {
+            datos = JSON.parse(data);
+            const marker = new google.maps.Marker({
+            position: {lat: parseFloat(datos.results[0].geometry.location.lat) , lng: parseFloat(datos.results[0].geometry.location.lng)},
+            map: map,
+          });
+        },
+        error: function () {
+            alert("No hemos podido encontrar resultados");
+        },
+    });
+    {% endfor %}
+    {% else %}
+        $.ajax({
+        url: 'https://maps.googleapis.com/maps/api/geocode/json?address={{ciudad.localizacion}}&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s',
+        type: 'GET',
+        dataType: 'text',
+        success: function (data) {
+            datos = JSON.parse(data);
+
+            map = new google.maps.Map(document.getElementById("mapa"), {
+                center: {lat: parseFloat(datos.results[0].geometry.location.lat) , lng: parseFloat(datos.results[0].geometry.location.lng)},
+                zoom: 15,
+            });
+        },
+        error: function () {
+            alert("No hemos podido encontrar resultados");
+        },
+    });
+    {% for aparcamiento in aparcamientos %}
+    $.ajax({
+        url: 'https://maps.googleapis.com/maps/api/geocode/json?address={{aparcamiento.localizacion}}&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s',
+        type: 'GET',
+        dataType: 'text',
+        success: function (data) {
+            datos = JSON.parse(data);
+            const marker = new google.maps.Marker({
+            position: {lat: parseFloat(datos.results[0].geometry.location.lat) , lng: parseFloat(datos.results[0].geometry.location.lng)},
+            map: map,
+          });
+        },
+        error: function () {
+            alert("No hemos podido encontrar resultados");
+        },
+    });
+    {% endfor %}
+    {% endif %}
+});
+
+</script>
+{% endblock %}

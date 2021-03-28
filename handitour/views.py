@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404, reverse
-from .models import Ciudad, Monumento, Valoracion, Alojamiento, Barrio
+from .models import Ciudad, Monumento, Valoracion, Alojamiento, Barrio, Aparcamiento
 from .forms import LoginForm, AltaForm, ValoracionForm, FiltroForm
 from django.contrib.auth import authenticate, login, logout, get_user
 from django.contrib.auth.decorators import login_required
@@ -87,3 +87,17 @@ def ciudad_alojamiento(request, id):
 def detalle_alojamiento(request, id):
     alojamiento = get_object_or_404(Alojamiento, id=id)
     return render(request, "alojamiento.html", {"alojamiento": alojamiento, "encabezado": alojamiento.nombre.upper()})
+
+def ciudad_aparcamiento(request, id):
+    ciudad = get_object_or_404(Ciudad, id=id)
+    aparcamientos = Aparcamiento.objects.filter(barrio__ciudad=ciudad)
+    form = FiltroForm(ciudad.id, request.POST)
+    if request.POST:
+        if form.is_valid():
+            seleccionado = form.cleaned_data.get('barrio')
+            barrio = Barrio.objects.all().filter(nombre=seleccionado)[0]
+            aparcamientos = Aparcamiento.objects.all().filter(barrio=barrio)
+            return render(request, "aparcamientos.html", {"aparcamientos": aparcamientos, "encabezado": ciudad.nombre.upper() + " - APARCAMIENTOS", "ciudad": ciudad, "form": form, "barrio": barrio})
+    else:
+        form = FiltroForm(ciudad.id, request.POST)
+        return render(request, "aparcamientos.html",  {"aparcamientos": aparcamientos, "encabezado": ciudad.nombre.upper() + " - APARCAMIENTOS", "ciudad": ciudad, "form": form})
