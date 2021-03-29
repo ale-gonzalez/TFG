@@ -37,7 +37,7 @@ class ValoracionForm(ModelForm):
 
 
 class FiltroForm(forms.Form):
-    barrio = ModelChoiceField(queryset=None, required=False)
+    barrio = ModelChoiceField(queryset=None, required=False, empty_label="Selecciona un barrio")
 
     def __init__(self, id, *args, **kwargs):
         super(FiltroForm, self).__init__(*args, **kwargs)
