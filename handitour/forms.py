@@ -37,12 +37,16 @@ class ValoracionForm(ModelForm):
 
 
 class FiltroForm(forms.Form):
-    barrio = ModelChoiceField(queryset=None, required=False, empty_label="Selecciona un barrio")
+#    barrio = ModelChoiceField(queryset=None, required=False, empty_label="Selecciona un barrio",
+#                              widget=forms.Select(attrs={"data-live-search": "true"}))
+    barrio = ModelChoiceField(queryset=None, required=False,
+                              widget=forms.Select(attrs={"data-live-search": "true"}))
 
     def __init__(self, id, *args, **kwargs):
         super(FiltroForm, self).__init__(*args, **kwargs)
         for field in self.fields:
-            self.fields[field].widget.attrs.update({'class': 'form-control'})
+            #self.fields[field].widget.attrs.update({'class': 'form-control selectpicker'})
+            self.fields[field].widget.attrs.update({'class': 'selectpicker'})
         if id:
             ciudad = get_object_or_404(Ciudad, id=id)
             self.fields['barrio'].queryset = ciudad.barrio_set.all()

@@ -54,6 +54,7 @@ $(document).ready(function () {
 
             map = new google.maps.Map(document.getElementById("mapa"), {
                 center: {lat: parseFloat(datos.results[0].geometry.location.lat) , lng: parseFloat(datos.results[0].geometry.location.lng)},
+                types: ["lodging"],
                 zoom: 15,
             });
         },
