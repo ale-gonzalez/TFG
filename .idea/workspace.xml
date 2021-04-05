@@ -5,9 +5,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="    filtro">
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="pue">
+      <change afterPath="$PROJECT_DIR$/handitour/static/js/alojamientos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/monumento.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/monumento.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/templates/alojamientos.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/alojamientos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,14 +203,9 @@
       <workItem from="1617528353684" duration="8198000" />
       <workItem from="1617635511728" duration="1320000" />
       <workItem from="1617637000940" duration="762000" />
-      <workItem from="1617639150339" duration="762000" />
-    </task>
-    <task id="LOCAL-00048" summary="mapa">
-      <created>1601124637885</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1601124637885</updated>
+      <workItem from="1617639150339" duration="1004000" />
+      <workItem from="1617641320417" duration="477000" />
+      <workItem from="1617644579808" duration="4072000" />
     </task>
     <task id="LOCAL-00049" summary="mapa dinamico">
       <created>1601201965950</created>
@@ -547,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617638037015</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="pue">
+      <created>1617640610495</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1617640610498</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +608,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="alter campo campo monumento entidad valoracion" />
     <MESSAGE value="memorias" />
     <MESSAGE value="reunion con javi" />
     <MESSAGE value="cambios en valoraciones" />
@@ -630,9 +632,14 @@
     <MESSAGE value="js" />
     <MESSAGE value="separar js" />
     <MESSAGE value="prueba" />
-    <option name="LAST_COMMIT_MESSAGE" value="prueba" />
+    <MESSAGE value="pue" />
+    <option name="LAST_COMMIT_MESSAGE" value="pue" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1360" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617641509308">
+      <screen x="-1920" y="-180" width="1920" height="987" />
+    </state>
+    <state x="-1360" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875/-1920.-180.1920.987@-1920.-180.1920.987" timestamp="1617641509308" />
     <state x="-1275" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1612696541199">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
@@ -749,18 +756,18 @@
     <state width="1868" height="348" key="GridCell.Tab.1.right/0.23.1440.877/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1610302549769" />
     <state width="1868" height="348" key="GridCell.Tab.1.right/0.23.1440.877/-1920.-180.1920.994@-1920.-180.1920.994" timestamp="1610302422098" />
     <state width="1868" height="348" key="GridCell.Tab.1.right/0.25.1440.800/-1920.-180.1920.1080/-3840.-155.1920.1055@-1920.-180.1920.1080" timestamp="1615025825453" />
-    <state x="-1576" y="-86" key="SettingsEditor" timestamp="1617636142679">
+    <state x="-1576" y="-86" key="SettingsEditor" timestamp="1617649746210">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
     <state x="-1576" y="-86" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080/-3840.-180.1920.1080@-1920.-180.1920.1080" timestamp="1617453386484" />
-    <state x="-1576" y="-86" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1617636142679" />
-    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2" timestamp="1617638054505">
+    <state x="-1576" y="-86" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1617649746210" />
+    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2" timestamp="1617640625011">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
     <state x="-1500" y="28" key="Vcs.Push.Dialog.v2/-3840.-180.1920.1080/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1612615204118" />
     <state x="280" y="154" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1609523181517" />
     <state x="-1500" y="28" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-180.1920.1080/-3840.-180.1920.1080@-1920.-180.1920.1080" timestamp="1617536957219" />
-    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1617638054505" />
+    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1617640625011" />
     <state x="-1500" y="10" key="Vcs.Push.Dialog.v2/0.25.1440.875/-1920.-180.1920.987/-3840.-155.1920.1055@-1920.-180.1920.987" timestamp="1615140458543" />
     <state x="-1188" y="-55" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609090853995">
       <screen x="-1920" y="-180" width="1920" height="1080" />
