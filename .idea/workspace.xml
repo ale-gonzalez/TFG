@@ -7,6 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="    filtro">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/templates/monumento.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/monumento.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,13 +201,8 @@
       <workItem from="1617445630216" duration="6831000" />
       <workItem from="1617528353684" duration="8198000" />
       <workItem from="1617635511728" duration="1320000" />
-    </task>
-    <task id="LOCAL-00047" summary="pruebas mapas">
-      <created>1601117730258</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1601117730258</updated>
+      <workItem from="1617637000940" duration="762000" />
+      <workItem from="1617639150339" duration="762000" />
     </task>
     <task id="LOCAL-00048" summary="mapa">
       <created>1601124637885</created>
@@ -544,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617636574991</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="prueba">
+      <created>1617638037015</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1617638037015</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,11 +600,6 @@
             </State>
           </value>
         </entry>
-      </map>
-    </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -756,13 +754,13 @@
     </state>
     <state x="-1576" y="-86" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080/-3840.-180.1920.1080@-1920.-180.1920.1080" timestamp="1617453386484" />
     <state x="-1576" y="-86" key="SettingsEditor/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1617636142679" />
-    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2" timestamp="1617636597079">
+    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2" timestamp="1617638054505">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
     <state x="-1500" y="28" key="Vcs.Push.Dialog.v2/-3840.-180.1920.1080/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1612615204118" />
     <state x="280" y="154" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1609523181517" />
     <state x="-1500" y="28" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-180.1920.1080/-3840.-180.1920.1080@-1920.-180.1920.1080" timestamp="1617536957219" />
-    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1617636597079" />
+    <state x="-1460" y="37" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1617638054505" />
     <state x="-1500" y="10" key="Vcs.Push.Dialog.v2/0.25.1440.875/-1920.-180.1920.987/-3840.-155.1920.1055@-1920.-180.1920.987" timestamp="1615140458543" />
     <state x="-1188" y="-55" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609090853995">
       <screen x="-1920" y="-180" width="1920" height="1080" />
