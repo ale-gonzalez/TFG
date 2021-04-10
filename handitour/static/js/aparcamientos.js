@@ -18,9 +18,9 @@ function initMap(localizacionCiudad){
     });
 }
 
-function getMarkers(localizacionAlojamiento){
+function getMarkers(localizacionAparcamiento){
       $.ajax({
-        url: 'https://maps.googleapis.com/maps/api/geocode/json?address='+ localizacionAlojamiento+'&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s',
+        url: 'https://maps.googleapis.com/maps/api/geocode/json?address='+ localizacionAparcamiento+'&key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s',
         type: 'GET',
         dataType: 'text',
         success: function (data) {

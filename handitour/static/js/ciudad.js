@@ -7,7 +7,6 @@ function initMap(localizacionCiudad) {
             dataType: 'text',
             success: function (data) {
                 datos = JSON.parse(data);
-
                 map = new google.maps.Map(document.getElementById("mapa"), {
                     center: {
                         lat: parseFloat(datos.results[0].geometry.location.lat),
