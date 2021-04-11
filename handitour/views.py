@@ -57,16 +57,17 @@ def ciudad_monumento(request, id):
 def detalle_monumento(request, id):
     monumento = get_object_or_404(Monumento, id=id)
     comentarios = Valoracion.objects.all().filter(monumento_id=id)
+    ciudad = monumento.barrio.ciudad
     if request.POST:
         form = ValoracionForm(request.POST)
         if form.is_valid():
             form.save()
             return redirect(reverse("handitour:monumento_detalle", args=[id]))
         else:
-            return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form, "comentarios": comentarios})
+            return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form, "comentarios": comentarios, "ciudad": ciudad})
     else:
         form = ValoracionForm(initial={'usuario':get_user(request),'monumento':monumento})
-        return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form, "comentarios": comentarios})
+        return render(request, "monumento.html", {"monumento": monumento, "encabezado": monumento.nombre.upper(), "form": form, "comentarios": comentarios, "ciudad": ciudad})
 
 
 def ciudad_alojamiento(request, id):
@@ -86,7 +87,9 @@ def ciudad_alojamiento(request, id):
 
 def detalle_alojamiento(request, id):
     alojamiento = get_object_or_404(Alojamiento, id=id)
-    return render(request, "alojamiento.html", {"alojamiento": alojamiento, "encabezado": alojamiento.nombre.upper()})
+    ciudad = alojamiento.barrio.ciudad
+    print(ciudad)
+    return render(request, "alojamiento.html", {"alojamiento": alojamiento, "encabezado": alojamiento.nombre.upper(), "ciudad": ciudad})
 
 def ciudad_aparcamiento(request, id):
     ciudad = get_object_or_404(Ciudad, id=id)
