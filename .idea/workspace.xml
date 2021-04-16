@@ -5,10 +5,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="separar js terminado">
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="enlazar páginas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/static/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/static/css/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,14 +217,8 @@
       <workItem from="1617644579808" duration="4481000" />
       <workItem from="1618044799569" duration="114000" />
       <workItem from="1618045122920" duration="6947000" />
-      <workItem from="1618135175678" duration="5044000" />
-    </task>
-    <task id="LOCAL-00052" summary="pruebas">
-      <created>1602518229325</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1602518229327</updated>
+      <workItem from="1618135175678" duration="5447000" />
+      <workItem from="1618566291995" duration="716000" />
     </task>
     <task id="LOCAL-00053" summary="pruebas">
       <created>1603629652050</created>
@@ -561,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618052174087</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="enlazar páginas">
+      <created>1618141820791</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1618141820792</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +621,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cambios en valoraciones" />
     <MESSAGE value="comentario usuario logueado, redirección a detalle al comentar" />
     <MESSAGE value="mostrar comentarios de un monumento" />
     <MESSAGE value="comentar usuario" />
@@ -644,6 +645,7 @@
     <MESSAGE value="pue" />
     <MESSAGE value="prueba commit" />
     <MESSAGE value="separar js terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="separar js terminado" />
+    <MESSAGE value="enlazar páginas" />
+    <option name="LAST_COMMIT_MESSAGE" value="enlazar páginas" />
   </component>
 </project>
