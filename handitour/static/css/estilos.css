@@ -10,5 +10,23 @@ header{
 }
 
 #imgmonumento{
-    width: 90% ;
+    width: 90%;
+}
+
+.card{
+    width: 18rem;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.ciudad.card-img-top{
+    height: 200px;
+}
+
+.card-booking{
+    width: 200px;
+}
+
+.card-booking.card-body.btn-primary{
+    background-color: darkgrey;
 }

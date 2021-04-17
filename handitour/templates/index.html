@@ -3,11 +3,8 @@
 {% block content %}
 <div class="row mt-3 ml-5">
 {% for ciudad in ciudades %}
-    <div class="card" style="width: 18rem; margin-right: 2%; margin-bottom: 2%;">
-        <a href="{{ ciudad.get_absolute_url }}"> <img src="{{ciudad.foto.url}}" class="card-img-top" alt="..."></a>
-        <div class="card-body">
-         <p class="card-text">{{ciudad}}</p>
-      </div>
+    <div class="card">
+        <a href="{{ ciudad.get_absolute_url }}"> <img src="{{ciudad.foto.url}}" class="card-img-top ciudad" alt="..."></a>
    </div>
 {% endfor %}
   </div>

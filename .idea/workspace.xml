@@ -5,11 +5,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="enlazar páginas">
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="cambios Alejandro Carmona v0.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handitour/static/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/static/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/templates/ciudad.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/ciudad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,14 +219,7 @@
       <workItem from="1618044799569" duration="114000" />
       <workItem from="1618045122920" duration="6947000" />
       <workItem from="1618135175678" duration="5447000" />
-      <workItem from="1618566291995" duration="716000" />
-    </task>
-    <task id="LOCAL-00053" summary="pruebas">
-      <created>1603629652050</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1603629652051</updated>
+      <workItem from="1618566291995" duration="8634000" />
     </task>
     <task id="LOCAL-00054" summary="pruebas">
       <created>1604230503518</created>
@@ -563,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618141820792</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="cambios Alejandro Carmona v0.1">
+      <created>1618569675751</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1618569675752</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,7 +622,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="comentario usuario logueado, redirección a detalle al comentar" />
     <MESSAGE value="mostrar comentarios de un monumento" />
     <MESSAGE value="comentar usuario" />
     <MESSAGE value="alojamientos" />
@@ -646,6 +646,7 @@
     <MESSAGE value="prueba commit" />
     <MESSAGE value="separar js terminado" />
     <MESSAGE value="enlazar páginas" />
-    <option name="LAST_COMMIT_MESSAGE" value="enlazar páginas" />
+    <MESSAGE value="cambios Alejandro Carmona v0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios Alejandro Carmona v0.1" />
   </component>
 </project>

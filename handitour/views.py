@@ -88,7 +88,6 @@ def ciudad_alojamiento(request, id):
 def detalle_alojamiento(request, id):
     alojamiento = get_object_or_404(Alojamiento, id=id)
     ciudad = alojamiento.barrio.ciudad
-    print(ciudad)
     return render(request, "alojamiento.html", {"alojamiento": alojamiento, "encabezado": alojamiento.nombre.upper(), "ciudad": ciudad})
 
 def ciudad_aparcamiento(request, id):
