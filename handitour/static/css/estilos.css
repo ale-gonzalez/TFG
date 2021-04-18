@@ -29,7 +29,7 @@ header{
 
 .btn-primary:hover{
     background-color: white;
-    border: dodgerblue 1px double;
+    border: dodgerblue 1px solid;
     color: dodgerblue;
 }
 
@@ -46,4 +46,9 @@ header{
 #mapa{
     height: 500px;
     width: 500px
+}
+
+form{
+    width: 50%;
+    margin: auto;
 }
