@@ -27,6 +27,23 @@ header{
     width: 200px;
 }
 
+.btn-primary:hover{
+    background-color: white;
+    border: dodgerblue 1px double;
+    color: dodgerblue;
+}
+
 .card-booking.card-body.btn-primary{
     background-color: darkgrey;
+}
+
+.col-md-12.col-lg-6.mt-3{
+    height: 600px;
+    width: 200px;
+    overflow: scroll;
+}
+
+#mapa{
+    height: 500px;
+    width: 500px
 }
