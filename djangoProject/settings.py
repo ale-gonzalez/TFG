@@ -123,4 +123,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-
+LANGUAGE_CODE = 'es-es'
