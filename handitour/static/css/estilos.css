@@ -53,3 +53,6 @@ form{
     margin: auto;
 }
 
+.text-center.p-3{
+    background-color: rgba(0, 0, 0, 0.2);
+}

@@ -5,12 +5,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="css">
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="css y settings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handitour/static/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/static/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/login_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/login_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,14 +220,8 @@
       <workItem from="1618566291995" duration="8803000" />
       <workItem from="1618735872569" duration="2774000" />
       <workItem from="1618771015515" duration="1959000" />
-      <workItem from="1618843987170" duration="3551000" />
-    </task>
-    <task id="LOCAL-00057" summary="mapa casi">
-      <created>1608148454313</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1608148454315</updated>
+      <workItem from="1618843987170" duration="4160000" />
+      <workItem from="1619340438289" duration="5355000" />
     </task>
     <task id="LOCAL-00058" summary="mapa casi listo">
       <created>1608384396102</created>
@@ -567,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618773717528</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="css y settings">
+      <created>1618848495861</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1618848495868</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +624,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="comentar usuario" />
     <MESSAGE value="alojamientos" />
     <MESSAGE value="cambios url" />
     <MESSAGE value="detalle alojamiento" />
@@ -650,6 +648,7 @@
     <MESSAGE value="enlazar páginas" />
     <MESSAGE value="cambios Alejandro Carmona v0.1" />
     <MESSAGE value="css" />
-    <option name="LAST_COMMIT_MESSAGE" value="css" />
+    <MESSAGE value="css y settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="css y settings" />
   </component>
 </project>
