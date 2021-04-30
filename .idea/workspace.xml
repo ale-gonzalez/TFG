@@ -5,9 +5,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="css y settings">
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/static/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/static/css/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handitour/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,14 +222,8 @@
       <workItem from="1618735872569" duration="2774000" />
       <workItem from="1618771015515" duration="1959000" />
       <workItem from="1618843987170" duration="4160000" />
-      <workItem from="1619340438289" duration="5355000" />
-    </task>
-    <task id="LOCAL-00058" summary="mapa casi listo">
-      <created>1608384396102</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1608384396104</updated>
+      <workItem from="1619340438289" duration="5626000" />
+      <workItem from="1619803281417" duration="511000" />
     </task>
     <task id="LOCAL-00059" summary="Intento api google. Tanto por ajax como directamente por la view">
       <created>1608400125271</created>
@@ -566,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618848495868</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="footer">
+      <created>1619349790552</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1619349790553</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +626,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="alojamientos" />
     <MESSAGE value="cambios url" />
     <MESSAGE value="detalle alojamiento" />
     <MESSAGE value="pruebas" />
@@ -649,6 +650,7 @@
     <MESSAGE value="cambios Alejandro Carmona v0.1" />
     <MESSAGE value="css" />
     <MESSAGE value="css y settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="css y settings" />
+    <MESSAGE value="footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer" />
   </component>
 </project>
