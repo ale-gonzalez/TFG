@@ -9,6 +9,18 @@ header{
     width: 100%;
 }
 
+h1{
+   color: white;
+}
+
+.navbar-light .navbar-brand{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
 #imgmonumento{
     width: 90%;
 }
