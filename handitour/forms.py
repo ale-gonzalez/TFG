@@ -38,12 +38,10 @@ class ValoracionForm(ModelForm):
 
 class FiltroForm(forms.Form):
     barrio = ModelChoiceField(queryset=None, required=False,
-                              widget=forms.RadioSelect(attrs={"data-live-search": "true"}))
+                              widget=forms.RadioSelect())
 
     def __init__(self, id, *args, **kwargs):
         super(FiltroForm, self).__init__(*args, **kwargs)
-        for field in self.fields:
-            self.fields[field].widget.attrs.update({'class': 'selectpicker'})
         if id:
             ciudad = get_object_or_404(Ciudad, id=id)
             self.fields['barrio'].queryset = ciudad.barrio_set.all()

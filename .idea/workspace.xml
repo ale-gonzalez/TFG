@@ -5,10 +5,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="css">
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="javi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handitour/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/static/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/static/css/estilos.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handitour/static/js/alojamientos.js" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/static/js/alojamientos.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,14 +226,8 @@
       <workItem from="1619803281417" duration="851000" />
       <workItem from="1619858605917" duration="2613000" />
       <workItem from="1619946095965" duration="2627000" />
-      <workItem from="1620552848970" duration="5214000" />
-    </task>
-    <task id="LOCAL-00063" summary="detalle monumento">
-      <created>1609092084001</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1609092084002</updated>
+      <workItem from="1620552848970" duration="5572000" />
+      <workItem from="1620578453665" duration="4100000" />
     </task>
     <task id="LOCAL-00064" summary="maquetación detalle monumento, creación formulario comentario y alter campo campo comentario entidad valoracion">
       <created>1609248684406</created>
@@ -571,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619948807689</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="javi">
+      <created>1620563418428</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1620563418429</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +630,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="detalle alojamiento" />
     <MESSAGE value="pruebas" />
     <MESSAGE value="cambios" />
     <MESSAGE value="listado de barrios para filtrar alojamientos" />
@@ -654,6 +654,7 @@
     <MESSAGE value="footer" />
     <MESSAGE value="footer y css" />
     <MESSAGE value="css" />
-    <option name="LAST_COMMIT_MESSAGE" value="css" />
+    <MESSAGE value="javi" />
+    <option name="LAST_COMMIT_MESSAGE" value="javi" />
   </component>
 </project>

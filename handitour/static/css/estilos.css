@@ -68,3 +68,11 @@ form{
 .text-center.p-3{
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
