@@ -38,7 +38,7 @@ class ValoracionForm(ModelForm):
 
 class FiltroForm(forms.Form):
     barrio = ModelChoiceField(queryset=None, required=False,
-                              widget=forms.Select(attrs={"data-live-search": "true"}))
+                              widget=forms.RadioSelect(attrs={"data-live-search": "true"}))
 
     def __init__(self, id, *args, **kwargs):
         super(FiltroForm, self).__init__(*args, **kwargs)
