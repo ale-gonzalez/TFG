@@ -1,9 +1,0 @@
-{% extends "base.html" %}
-{% block title %}Nuevo usuario{% endblock %}
-{% block content %}
-    <form action="." method="POST" enctype="multipart/form-data" id="alta">
-        {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit" class="btn btn-primary form-control">Registrarse</button>
-    </form>
-{% endblock %}

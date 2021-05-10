@@ -76,3 +76,7 @@ ul{
 li{
     display: inline-block;
 }
+
+.btn.btn-primary{
+    margin-bottom: 5px;
+}

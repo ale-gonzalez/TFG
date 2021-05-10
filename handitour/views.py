@@ -14,38 +14,36 @@ def ciudades (request):
 
 def login_usuario(request):
     if request.POST:
-        form = LoginForm(request.POST)
-        username = request.POST['usuario']
-        password = request.POST['password']
-        user = authenticate(request, username=username, password=password)
-        if user is not None:
-            login(request, user)
-            return redirect('/inicio/')
+        formLogin = LoginForm(request.POST)
+        formAlta = AltaForm(request.POST)
+        if formLogin.is_valid():
+            username = request.POST['usuario']
+            password = request.POST['password']
+            user = authenticate(request, username=username, password=password)
+            if user is not None:
+                login(request, user)
+                return redirect('/inicio/')
+            else:
+                formLogin = LoginForm()
+                return render(request, "autenticion_forms.html", {'formLogin': formLogin, 'formAlta': formAlta})
+        if formAlta.is_valid():
+            formAlta = formAlta.save()
+            return redirect('/autenticacion')
+            return render(request, "login_form.html_form.html", {'formLogin': formLogin, 'formAlta': formAlta})
         else:
-            form = LoginForm()
-            return render(request, "login_form.html", {'form': form})
+            formLogin = LoginForm(request.POST)
+            formAlta = AltaForm(request.POST)
+            return render(request, "autenticion_forms.html", {'formLogin': formLogin, 'formAlta': formAlta})
     else:
-        form = LoginForm()
-        return render(request, "login_form.html", {'form': form})
+        formLogin = LoginForm(request.POST)
+        formAlta = AltaForm(request.POST)
+        return render(request, "autenticion_forms.html", {'formLogin': formLogin, 'formAlta': formAlta})
 
 
 @login_required
 def logout_usuario(request):
     logout(request)
     return redirect('/inicio')
-
-
-def alta_usuario(request):
-    if request.POST:
-        form = AltaForm(request.POST)
-        if form.is_valid():
-            alta = form.save()
-            return redirect('/login')
-        else:
-            return render(request, "altausuario_form.html", {'form': form})
-    else:
-        form = AltaForm()
-        return render(request, "altausuario_form.html", {'form': form})
 
 
 def ciudad_monumento(request, id):
