@@ -29,7 +29,7 @@ def login_usuario(request):
         if formAlta.is_valid():
             formAlta = formAlta.save()
             return redirect('/autenticacion')
-            return render(request, "login_form.html_form.html", {'formLogin': formLogin, 'formAlta': formAlta})
+            return render(request, "autenticion_forms.html", {'formLogin': formLogin, 'formAlta': formAlta})
         else:
             formLogin = LoginForm(request.POST)
             formAlta = AltaForm(request.POST)
