@@ -5,7 +5,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="login modificado" />
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="login modificado">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/static/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/static/css/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,13 +229,10 @@
       <workItem from="1620552848970" duration="5572000" />
       <workItem from="1620578453665" duration="4267000" />
       <workItem from="1620659479900" duration="6818000" />
-    </task>
-    <task id="LOCAL-00066" summary="pruebas">
-      <created>1609416627971</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1609416627972</updated>
+      <workItem from="1620676481721" duration="199000" />
+      <workItem from="1620836461621" duration="3332000" />
+      <workItem from="1620842487134" duration="190000" />
+      <workItem from="1620917962212" duration="2025000" />
     </task>
     <task id="LOCAL-00067" summary="Pruebas">
       <created>1609523172687</created>
@@ -568,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620668032122</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="login modificado">
+      <created>1620676652831</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1620676652831</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

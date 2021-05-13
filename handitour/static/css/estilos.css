@@ -29,6 +29,26 @@ header h1{
     width: 18rem;
     margin-right: 2%;
     margin-bottom: 2%;
+    display: flex;
+}
+
+.card:hover .card-img-top {
+    opacity: 0.3;
+}
+
+.card:hover .image-title {
+    display: block;
+}
+
+.image-title {
+    display: none;
+    position: fixed;
+    margin:auto;
+    color: #007bff;
+    font-size: 3rem;
+    font-weight: bold;
+    justify-self: center;
+    align-self: center;
 }
 
 .ciudad.card-img-top{
