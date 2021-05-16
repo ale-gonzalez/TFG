@@ -56,7 +56,7 @@ header h1{
 }
 
 .card-booking{
-    width: 200px;
+    width: 80%;
 }
 
 .btn-primary:hover{
@@ -69,15 +69,15 @@ header h1{
     background-color: darkgrey;
 }
 
-.col-md-12.col-lg-6.mt-3{
-    height: 550px;
-    width: 200px;
+.col-sm-12.col-md-4.mt-3{
+    height: 20%;
+    width: 100%;
     overflow: scroll;
 }
 
 #mapa{
-    height: 500px;
-    width: 500px
+    height: 100%;
+    width: 100%
 }
 
 form{

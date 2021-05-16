@@ -7,15 +7,18 @@
 {% endblock %}
 {% block content %}
     <div class="row">
+    <div class="col-sm-12 col-md-4 ">
                 <form action="." method="POST" enctype="multipart/form-data" id="buscar">
                 {% csrf_token %}
                     {{ form.as_p }}
                     <button type="submit" class="btn btn-primary form-control">Buscar</button>
                 </form>
     </div>
-    <div class="row">
+
+    <div class="col-md-8 mt-3">
         <div id="mapa">
         </div>
+    </div>
     </div>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s"></script>
     <script src="/../static/js/aparcamientos.js"></script>
