@@ -5,14 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="dios">
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handitour/static/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/static/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/alojamientos.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/alojamientos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/aparcamientos.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/aparcamientos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/autenticion_forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/autenticion_forms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/ciudad.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/ciudad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,14 +231,8 @@
       <workItem from="1620836461621" duration="3332000" />
       <workItem from="1620842487134" duration="190000" />
       <workItem from="1620917962212" duration="2558000" />
-      <workItem from="1621155367056" duration="6499000" />
-    </task>
-    <task id="LOCAL-00068" summary="alter campo campo monumento entidad valoracion">
-      <created>1610199812897</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1610199812898</updated>
+      <workItem from="1621155367056" duration="6870000" />
+      <workItem from="1621268755603" duration="5756000" />
     </task>
     <task id="LOCAL-00069" summary="memorias">
       <created>1610199959132</created>
@@ -581,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620922323633</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="css">
+      <created>1621163590747</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1621163590747</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -661,9 +657,9 @@
     <MESSAGE value="footer" />
     <MESSAGE value="footer y css" />
     <MESSAGE value="javi" />
-    <MESSAGE value="css" />
     <MESSAGE value="login modificado" />
     <MESSAGE value="dios" />
-    <option name="LAST_COMMIT_MESSAGE" value="dios" />
+    <MESSAGE value="css" />
+    <option name="LAST_COMMIT_MESSAGE" value="css" />
   </component>
 </project>

@@ -70,14 +70,14 @@ header h1{
 }
 
 .col-sm-12.col-md-4.mt-3{
-    height: 20%;
+    height: 60%;
     width: 100%;
     overflow: scroll;
 }
 
 #mapa{
     height: 100%;
-    width: 100%
+    width: 100%;
 }
 
 form{
