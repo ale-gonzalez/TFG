@@ -5,11 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="css">
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="aparcamientos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/static/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/static/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/aparcamientos.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/aparcamientos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,14 +233,7 @@
       <workItem from="1620917962212" duration="2558000" />
       <workItem from="1621155367056" duration="6870000" />
       <workItem from="1621268755603" duration="6099000" />
-      <workItem from="1621353540527" duration="653000" />
-    </task>
-    <task id="LOCAL-00070" summary="reunion con javi">
-      <created>1610277427663</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1610277427664</updated>
+      <workItem from="1621353540527" duration="4263000" />
     </task>
     <task id="LOCAL-00071" summary="cambios en valoraciones">
       <created>1610303762454</created>
@@ -580,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621274989863</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="aparcamientos">
+      <created>1621357573001</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1621357573002</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,7 +643,6 @@
     <MESSAGE value="    filtro" />
     <MESSAGE value="filtrado barrio" />
     <MESSAGE value="mapa según barrio" />
-    <MESSAGE value="aparcamientos" />
     <MESSAGE value="diseño" />
     <MESSAGE value="revision fct" />
     <MESSAGE value="js" />
@@ -663,6 +660,7 @@
     <MESSAGE value="login modificado" />
     <MESSAGE value="dios" />
     <MESSAGE value="css" />
-    <option name="LAST_COMMIT_MESSAGE" value="css" />
+    <MESSAGE value="aparcamientos" />
+    <option name="LAST_COMMIT_MESSAGE" value="aparcamientos" />
   </component>
 </project>
