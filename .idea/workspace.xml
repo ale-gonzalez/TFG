@@ -5,9 +5,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="aparcamientos">
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="index">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/static/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/static/css/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/static/js/ciudad.js" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/static/js/ciudad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/templates/monumento.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/monumento.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,14 +235,8 @@
       <workItem from="1620917962212" duration="2558000" />
       <workItem from="1621155367056" duration="6870000" />
       <workItem from="1621268755603" duration="6099000" />
-      <workItem from="1621353540527" duration="4263000" />
-    </task>
-    <task id="LOCAL-00071" summary="cambios en valoraciones">
-      <created>1610303762454</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1610303762455</updated>
+      <workItem from="1621353540527" duration="4690000" />
+      <workItem from="1621441679293" duration="3870000" />
     </task>
     <task id="LOCAL-00072" summary="comentario usuario logueado, redirección a detalle al comentar">
       <created>1610308704506</created>
@@ -578,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621357573002</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="index">
+      <created>1621361327215</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1621361327216</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,7 +639,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="listado de barrios para filtrar alojamientos" />
     <MESSAGE value="buscador" />
     <MESSAGE value="filtro barrio" />
     <MESSAGE value="filtro" />
@@ -661,6 +663,7 @@
     <MESSAGE value="dios" />
     <MESSAGE value="css" />
     <MESSAGE value="aparcamientos" />
-    <option name="LAST_COMMIT_MESSAGE" value="aparcamientos" />
+    <MESSAGE value="index" />
+    <option name="LAST_COMMIT_MESSAGE" value="index" />
   </component>
 </project>
