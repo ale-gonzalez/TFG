@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404, reverse
-from .models import Ciudad, Monumento, Valoracion, Alojamiento, Barrio, Aparcamiento
+from .models import Ciudad, Monumento, Valoracion, Alojamiento, Barrio, Aparcamiento, Parada, Linea
 from .forms import LoginForm, AltaForm, ValoracionForm, FiltroForm
 from django.contrib.auth import authenticate, login, logout, get_user
 from django.contrib.auth.decorators import login_required
@@ -98,3 +98,20 @@ def ciudad_aparcamiento(request, id):
     else:
         form = FiltroForm(ciudad.id, request.POST)
         return render(request, "aparcamientos.html",  {"aparcamientos": aparcamientos, "encabezado": "HANDITOUR", "ciudad": ciudad, "form": form})
+
+
+def transportes(request, id):
+    ciudad = get_object_or_404(Ciudad, id=id)
+    form = FiltroForm(ciudad.id, request.POST)
+    paradas = Parada.objects.all().filter(barrio__ciudad=ciudad)
+    lineas = Linea.objects.all().filter(paradas__lineas=paradas)
+    if request.POST:
+        if form.is_valid():
+            seleccionado = form.cleaned_data.get('barrio')
+            barrio = Barrio.objects.all().filter(nombre=seleccionado)[0]
+            paradas = Parada.objects.all().filter(barrio=barrio)
+            lineas = Linea.objects.all().filter(parada__lineas=paradas)
+            return render(request, "transportes.html", {"encabezado": "HANDITOUR", "ciudad": ciudad, "form": form, "barrio": barrio, "paradas": paradas, "lineas": lineas})
+    else:
+        form = FiltroForm(ciudad.id, request.POST)
+        return render(request, "transportes.html", {"encabezado": "HANDITOUR", "ciudad": ciudad, "form": form, "paradas": paradas, "lineas": lineas})

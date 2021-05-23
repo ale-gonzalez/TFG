@@ -3,7 +3,7 @@
 {% block nav %}
     <a class="nav-link" href="/alojamientos/{{ ciudad.id }}">Alojamientos</a>
     <a class="nav-link active" href="/aparcamientos/{{ ciudad.id }}">Aparcamientos</a>
-    <a class="nav-link" href="/transportes/{{ ciudad.id }}">Transportes</a>
+   <a class="nav-link" href="/transportes/{{ ciudad.id }}">Transportes</a>
 {% endblock %}
 {% block content %}
     <div class="row">
@@ -13,6 +13,25 @@
                     {{ form.as_p }}
                     <button type="submit" class="btn btn-primary form-control">Buscar</button>
                 </form>
+            {% for parada in paradas %}
+                <table>
+                <thead>
+                    <tr>
+                        <th>Lineas</th>
+                        {% for linea in lineas %}
+                            <td>{{ linea.numero_nombre }}</td>
+                        {% endfor %}
+
+                    </tr>
+                    <tr>
+                        <th>Correspondencias</th>
+                        <td>{{ parada.lineas }}</td>
+                    </tr>
+                </thead>
+
+                </table>
+            {% endfor %}
+
     </div>
 
     <div class="col-md-10 mt-3">
@@ -21,19 +40,19 @@
     </div>
     </div>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s"></script>
-    <script src="/../static/js/aparcamientos.js"></script>
+    <script src="/../static/js/transportes.js"></script>
 <script>
 $(document).ready(function () {
 
     {% if barrio %}
         getBarrio("{{ barrio.localizacion }}")
-    {% for aparcamiento in aparcamientos %}
-        getMarkers("{{ aparcamiento.localizacion }}")
+    {% for parada in paradas %}
+        getMarkers("{{ parada.localizacion }}")
     {% endfor %}
     {% else %}
         initMap("{{ ciudad.localizacion }}")
-    {% for aparcamiento in aparcamientos %}
-        getMarkers("{{ aparcamiento.localizacion }}")
+    {% for parada in paradas %}
+        getMarkers("{{ parada.localizacion }}")
     {% endfor %}
     {% endif %}
 });
