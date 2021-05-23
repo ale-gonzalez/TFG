@@ -5,17 +5,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="css y js">
-      <change afterPath="$PROJECT_DIR$/handitour/static/js/transportes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handitour/templates/transportes.html" afterDir="false" />
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="transportes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/static/js/alojamientos.js" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/static/js/alojamientos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/alojamiento.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/alojamiento.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/alojamientos.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/alojamientos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/aparcamientos.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/aparcamientos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/ciudad.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/ciudad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/monumento.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/monumento.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handitour/templates/transportes.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/transportes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handitour/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -247,14 +240,8 @@
       <workItem from="1621441679293" duration="3870000" />
       <workItem from="1621446264249" duration="301000" />
       <workItem from="1621525401525" duration="243000" />
-      <workItem from="1621760766149" duration="8782000" />
-    </task>
-    <task id="LOCAL-00073" summary="pruebas">
-      <created>1610645028071</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1610645028072</updated>
+      <workItem from="1621760766149" duration="9069000" />
+      <workItem from="1621789139104" duration="2588000" />
     </task>
     <task id="LOCAL-00074" summary="mostrar comentarios de un monumento">
       <created>1610803944175</created>
@@ -592,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621446600211</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="transportes">
+      <created>1621770093640</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1621770093643</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,7 +644,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="filtro barrio" />
     <MESSAGE value="filtro" />
     <MESSAGE value="    filtro" />
     <MESSAGE value="filtrado barrio" />
@@ -675,6 +668,7 @@
     <MESSAGE value="aparcamientos" />
     <MESSAGE value="index" />
     <MESSAGE value="css y js" />
-    <option name="LAST_COMMIT_MESSAGE" value="css y js" />
+    <MESSAGE value="transportes" />
+    <option name="LAST_COMMIT_MESSAGE" value="transportes" />
   </component>
 </project>

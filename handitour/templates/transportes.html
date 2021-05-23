@@ -17,15 +17,14 @@
                 <table>
                 <thead>
                     <tr>
-                        <th>Lineas</th>
-                        {% for linea in lineas %}
-                            <td>{{ linea.numero_nombre }}</td>
-                        {% endfor %}
-
+                        <th>Parada</th>
+                        <td>{{ parada.nombre }}</td>
                     </tr>
                     <tr>
-                        <th>Correspondencias</th>
-                        <td>{{ parada.lineas }}</td>
+                        <th>Lineas</th>
+                        {% for linea in parada.lineas.all %}
+                            <td>{{ linea.numero_nombre }}</td>
+                        {% endfor %}
                     </tr>
                 </thead>
 
