@@ -5,12 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="transportes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/transportes.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/transportes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="transportes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,14 +236,7 @@
       <workItem from="1621446264249" duration="301000" />
       <workItem from="1621525401525" duration="243000" />
       <workItem from="1621760766149" duration="9069000" />
-      <workItem from="1621789139104" duration="2588000" />
-    </task>
-    <task id="LOCAL-00074" summary="mostrar comentarios de un monumento">
-      <created>1610803944175</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1610803944175</updated>
+      <workItem from="1621789139104" duration="2743000" />
     </task>
     <task id="LOCAL-00075" summary="prueba">
       <created>1611494962453</created>
@@ -586,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621770093643</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="transportes">
+      <created>1621792286293</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1621792286294</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

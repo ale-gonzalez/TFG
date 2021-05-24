@@ -22,9 +22,11 @@
                     </tr>
                     <tr>
                         <th>Lineas</th>
+                        <td>
                         {% for linea in parada.lineas.all %}
-                            <td>{{ linea.numero_nombre }}</td>
+                            <p>{{ linea.numero_nombre }}</p>
                         {% endfor %}
+                        </td>
                     </tr>
                 </thead>
 
