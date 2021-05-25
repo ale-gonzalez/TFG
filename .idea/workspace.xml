@@ -5,7 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="transportes" />
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="doc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,14 +237,7 @@
       <workItem from="1621525401525" duration="243000" />
       <workItem from="1621760766149" duration="9069000" />
       <workItem from="1621789139104" duration="2743000" />
-      <workItem from="1621872786851" duration="429000" />
-    </task>
-    <task id="LOCAL-00076" summary="comentar usuario">
-      <created>1612091473897</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1612091473897</updated>
+      <workItem from="1621872786851" duration="692000" />
     </task>
     <task id="LOCAL-00077" summary="alojamientos">
       <created>1612615179524</created>
@@ -582,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621873203812</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="doc">
+      <created>1621880486473</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1621880486473</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,7 +640,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="filtro" />
     <MESSAGE value="    filtro" />
     <MESSAGE value="filtrado barrio" />
     <MESSAGE value="mapa según barrio" />
@@ -665,6 +664,7 @@
     <MESSAGE value="index" />
     <MESSAGE value="css y js" />
     <MESSAGE value="transportes" />
-    <option name="LAST_COMMIT_MESSAGE" value="transportes" />
+    <MESSAGE value="doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="doc" />
   </component>
 </project>
