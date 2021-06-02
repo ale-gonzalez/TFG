@@ -243,13 +243,7 @@
       <workItem from="1622130774592" duration="773000" />
       <workItem from="1622368146929" duration="84000" />
       <workItem from="1622483490714" duration="55000" />
-    </task>
-    <task id="LOCAL-00082" summary="listado de barrios para filtrar alojamientos">
-      <created>1614624883271</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1614624883273</updated>
+      <workItem from="1622572228726" duration="69000" />
     </task>
     <task id="LOCAL-00083" summary="buscador">
       <created>1614714765556</created>
@@ -587,7 +581,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622483506572</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="doc">
+      <created>1622572256586</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1622572256586</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
