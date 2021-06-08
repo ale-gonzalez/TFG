@@ -5,7 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="doc" />
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="login modificado" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +92,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="" />
@@ -594,7 +597,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
