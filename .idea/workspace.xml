@@ -231,134 +231,24 @@
       <workItem from="1620676481721" duration="199000" />
       <workItem from="1620836461621" duration="3332000" />
       <workItem from="1620842487134" duration="190000" />
-      <workItem from="1620917962212" duration="2025000" />
-      <workItem from="1623140210012" duration="403000" />
-    </task>
-    <task id="LOCAL-00067" summary="Pruebas">
-      <created>1609523172687</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1609523172688</updated>
-    </task>
-    <task id="LOCAL-00068" summary="alter campo campo monumento entidad valoracion">
-      <created>1610199812897</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1610199812898</updated>
-    </task>
-    <task id="LOCAL-00069" summary="memorias">
-      <created>1610199959132</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1610199959133</updated>
-    </task>
-    <task id="LOCAL-00070" summary="reunion con javi">
-      <created>1610277427663</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1610277427664</updated>
-    </task>
-    <task id="LOCAL-00071" summary="cambios en valoraciones">
-      <created>1610303762454</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1610303762455</updated>
-    </task>
-    <task id="LOCAL-00072" summary="comentario usuario logueado, redirección a detalle al comentar">
-      <created>1610308704506</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1610308704506</updated>
-    </task>
-    <task id="LOCAL-00073" summary="pruebas">
-      <created>1610645028071</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1610645028072</updated>
-    </task>
-    <task id="LOCAL-00074" summary="mostrar comentarios de un monumento">
-      <created>1610803944175</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1610803944175</updated>
-    </task>
-    <task id="LOCAL-00075" summary="prueba">
-      <created>1611494962453</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1611494962453</updated>
-    </task>
-    <task id="LOCAL-00076" summary="comentar usuario">
-      <created>1612091473897</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1612091473897</updated>
-    </task>
-    <task id="LOCAL-00077" summary="alojamientos">
-      <created>1612615179524</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1612615179526</updated>
-    </task>
-    <task id="LOCAL-00078" summary="cambios url">
-      <created>1612696473821</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1612696473822</updated>
-    </task>
-    <task id="LOCAL-00079" summary="detalle alojamiento">
-      <created>1612699513286</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1612699513288</updated>
-    </task>
-    <task id="LOCAL-00080" summary="pruebas">
-      <created>1613908507315</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1613908507316</updated>
-    </task>
-    <task id="LOCAL-00081" summary="cambios">
-      <created>1614596657845</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1614596657847</updated>
-    </task>
-    <task id="LOCAL-00082" summary="listado de barrios para filtrar alojamientos">
-      <created>1614624883271</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1614624883273</updated>
-    </task>
-    <task id="LOCAL-00083" summary="buscador">
-      <created>1614714765556</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1614714765557</updated>
-    </task>
-    <task id="LOCAL-00084" summary="filtro barrio">
-      <created>1615033287699</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1615033287700</updated>
+      <workItem from="1620917962212" duration="2558000" />
+      <workItem from="1621155367056" duration="6870000" />
+      <workItem from="1621268755603" duration="6099000" />
+      <workItem from="1621353540527" duration="4690000" />
+      <workItem from="1621441679293" duration="3870000" />
+      <workItem from="1621446264249" duration="301000" />
+      <workItem from="1621525401525" duration="243000" />
+      <workItem from="1621760766149" duration="9069000" />
+      <workItem from="1621789139104" duration="2743000" />
+      <workItem from="1621872786851" duration="692000" />
+      <workItem from="1621960888219" duration="296000" />
+      <workItem from="1622045406437" duration="379000" />
+      <workItem from="1622130774592" duration="773000" />
+      <workItem from="1622368146929" duration="84000" />
+      <workItem from="1622483490714" duration="55000" />
+      <workItem from="1622572228726" duration="69000" />
+      <workItem from="1622656621846" duration="89000" />
+      <workItem from="1622744519127" duration="69000" />
     </task>
     <task id="LOCAL-00085" summary="filtro">
       <created>1615116466227</created>
@@ -577,7 +467,133 @@
       <option name="project" value="LOCAL" />
       <updated>1620676652831</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="dios">
+      <created>1620922323631</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1620922323633</updated>
+    </task>
+    <task id="LOCAL-00117" summary="css">
+      <created>1621163590747</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1621163590747</updated>
+    </task>
+    <task id="LOCAL-00118" summary="css">
+      <created>1621274989862</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1621274989863</updated>
+    </task>
+    <task id="LOCAL-00119" summary="aparcamientos">
+      <created>1621357573001</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1621357573002</updated>
+    </task>
+    <task id="LOCAL-00120" summary="index">
+      <created>1621361327215</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1621361327216</updated>
+    </task>
+    <task id="LOCAL-00121" summary="css y js">
+      <created>1621446600211</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1621446600211</updated>
+    </task>
+    <task id="LOCAL-00122" summary="transportes">
+      <created>1621770093640</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1621770093643</updated>
+    </task>
+    <task id="LOCAL-00123" summary="transportes">
+      <created>1621792286293</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1621792286294</updated>
+    </task>
+    <task id="LOCAL-00124" summary="transportes">
+      <created>1621873203812</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1621873203812</updated>
+    </task>
+    <task id="LOCAL-00125" summary="doc">
+      <created>1621880486473</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1621880486473</updated>
+    </task>
+    <task id="LOCAL-00126" summary="doc">
+      <created>1621967369291</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1621967369291</updated>
+    </task>
+    <task id="LOCAL-00127" summary="doc">
+      <created>1622052033068</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1622052033069</updated>
+    </task>
+    <task id="LOCAL-00128" summary="doc">
+      <created>1622138300572</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1622138300574</updated>
+    </task>
+    <task id="LOCAL-00129" summary="doc">
+      <created>1622368177657</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1622368177658</updated>
+    </task>
+    <task id="LOCAL-00130" summary="doc">
+      <created>1622483506571</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1622483506572</updated>
+    </task>
+    <task id="LOCAL-00131" summary="doc">
+      <created>1622572256586</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1622572256586</updated>
+    </task>
+    <task id="LOCAL-00132" summary="doc">
+      <created>1622656672362</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1622656672363</updated>
+    </task>
+    <task id="LOCAL-00133" summary="doc">
+      <created>1622744562101</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1622744562102</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,15 +651,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cambios" />
-    <MESSAGE value="listado de barrios para filtrar alojamientos" />
-    <MESSAGE value="buscador" />
-    <MESSAGE value="filtro barrio" />
-    <MESSAGE value="filtro" />
     <MESSAGE value="    filtro" />
     <MESSAGE value="filtrado barrio" />
     <MESSAGE value="mapa según barrio" />
-    <MESSAGE value="aparcamientos" />
     <MESSAGE value="diseño" />
     <MESSAGE value="revision fct" />
     <MESSAGE value="js" />
@@ -658,8 +668,14 @@
     <MESSAGE value="footer" />
     <MESSAGE value="footer y css" />
     <MESSAGE value="javi" />
-    <MESSAGE value="css" />
     <MESSAGE value="login modificado" />
-    <option name="LAST_COMMIT_MESSAGE" value="login modificado" />
+    <MESSAGE value="dios" />
+    <MESSAGE value="css" />
+    <MESSAGE value="aparcamientos" />
+    <MESSAGE value="index" />
+    <MESSAGE value="css y js" />
+    <MESSAGE value="transportes" />
+    <MESSAGE value="doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="doc" />
   </component>
 </project>

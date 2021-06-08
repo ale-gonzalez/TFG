@@ -14,4 +14,5 @@ urlpatterns = [
     path('alojamientos/<id>/', views.ciudad_alojamiento, name="ciudad_alojamiento"),
     path('alojamiento/<id>/', views.detalle_alojamiento, name="alojamiento_detalle"),
     path('aparcamientos/<id>/', views.ciudad_aparcamiento, name="ciudad_aparcamiento"),
+    path('transportes/<id>/', views.transportes, name="ciudad_trasnporte"),
 ]

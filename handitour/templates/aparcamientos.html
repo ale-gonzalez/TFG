@@ -3,19 +3,22 @@
 {% block nav %}
     <a class="nav-link" href="/alojamientos/{{ ciudad.id }}">Alojamientos</a>
     <a class="nav-link active" href="/aparcamientos/{{ ciudad.id }}">Aparcamientos</a>
-    <a class="nav-link" href="#">Transportes</a>
+    <a class="nav-link" href="/transportes/{{ ciudad.id }}">Transportes</a>
 {% endblock %}
 {% block content %}
     <div class="row">
+    <div class="col-sm-12 col-md-2 mt-2">
                 <form action="." method="POST" enctype="multipart/form-data" id="buscar">
                 {% csrf_token %}
                     {{ form.as_p }}
                     <button type="submit" class="btn btn-primary form-control">Buscar</button>
                 </form>
     </div>
-    <div class="row">
+
+    <div class="col-md-10 mt-3">
         <div id="mapa">
         </div>
+    </div>
     </div>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuqyO6rP6S_609rthhZt0dbi_uAHgpM8s"></script>
     <script src="/../static/js/aparcamientos.js"></script>

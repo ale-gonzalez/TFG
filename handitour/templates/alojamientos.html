@@ -3,12 +3,12 @@
 {% block nav %}
     <a class="nav-link active" href="/alojamientos/{{ ciudad.id }}">Alojamientos</a>
     <a class="nav-link" href="/aparcamientos/{{ ciudad.id }}">Aparcamientos</a>
-    <a class="nav-link" href="#">Transportes</a>
+    <a class="nav-link" href="/transportes/{{ ciudad.id }}">Transportes</a>
 
 {% endblock %}
 {% block content %}
     <div class="row">
-        <div class="col-md-12 col-lg-6 mt-3">
+        <div class="col-sm-12 col-md-4 mt-3">
             <form action="." method="POST" enctype="multipart/form-data" id="buscar">
             {% csrf_token %}
                 {{ form.as_p }}
@@ -32,7 +32,7 @@
 
     {% endfor %}
     </div>
-    <div class="col-lg-6 mt-3">
+    <div class="col-md-8 mt-3">
         <div id="mapa">
         </div>
     </div>

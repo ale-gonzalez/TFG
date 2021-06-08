@@ -8,7 +8,6 @@ function initMap(localizacionCiudad){
             datos = JSON.parse(data);
             map = new google.maps.Map(document.getElementById("mapa"), {
                 center: {lat: parseFloat(datos.results[0].geometry.location.lat) , lng: parseFloat(datos.results[0].geometry.location.lng)},
-                types: ["lodging"],
                 zoom: 15,
                 styles: [
                     {"featureType": "poi",
@@ -64,7 +63,6 @@ function getBarrio(localizacionBarrio){
             console.log("modif 1")
             map = new google.maps.Map(document.getElementById("mapa"), {
                 center: {lat: parseFloat(datos.results[0].geometry.location.lat) , lng: parseFloat(datos.results[0].geometry.location.lng)},
-                types: ["lodging"],
                 zoom: 15,
                 styles: [
                     {"featureType": "poi",

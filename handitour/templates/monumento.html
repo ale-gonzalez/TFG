@@ -3,7 +3,7 @@
 {% block nav %}
     <a class="nav-link" href="/alojamientos/{{ ciudad.id }}">Alojamientos</a>
     <a class="nav-link" href="/aparcamientos/{{ ciudad.id }}">Aparcamientos</a>
-    <a class="nav-link" href="#">Transportes</a>
+    <a class="nav-link" href="/transportes/{{ ciudad.id }}">Transportes</a>
 {% endblock %}
 {% block content %}
     <div class="row">
@@ -49,7 +49,7 @@
                 <button type="submit" class="btn btn-primary form-control">Comentar</button>
             </form>
         {% else %}
-            <p>Por favor, haga <a href="/login">Log in</a> para comentar </p>
+            <p>Por favor, haga <a href="/autenticacion">Log in</a> para comentar </p>
         {% endif %}
     </div>
 
