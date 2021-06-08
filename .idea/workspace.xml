@@ -5,12 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="login modificado">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/static/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/static/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handitour/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/handitour/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="login modificado" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +47,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/handitour/templates" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -96,6 +92,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="" />
@@ -233,6 +232,7 @@
       <workItem from="1620836461621" duration="3332000" />
       <workItem from="1620842487134" duration="190000" />
       <workItem from="1620917962212" duration="2025000" />
+      <workItem from="1623140210012" duration="403000" />
     </task>
     <task id="LOCAL-00067" summary="Pruebas">
       <created>1609523172687</created>
@@ -581,7 +581,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
