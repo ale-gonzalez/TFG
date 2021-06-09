@@ -5,7 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="login modificado" />
+    <list default="true" id="5c0b0e42-0a40-47c5-9bd3-02033228837e" name="Default Changelist" comment="login modificado">
+      <change beforePath="$PROJECT_DIR$/Proyecto/Domentación.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Domentación.docx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -249,6 +251,7 @@
       <workItem from="1622572228726" duration="69000" />
       <workItem from="1622656621846" duration="89000" />
       <workItem from="1622744519127" duration="69000" />
+      <workItem from="1623144660638" duration="342000" />
     </task>
     <task id="LOCAL-00085" summary="filtro">
       <created>1615116466227</created>
@@ -597,7 +600,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
