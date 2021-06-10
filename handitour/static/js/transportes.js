@@ -13,6 +13,8 @@ function initMap(localizacionCiudad){
                 styles: [
                     {"featureType": "transit",
                     "stylers": [{"visibility": "off"}]},
+                    {"featureType": "poi",
+                    "stylers": [{"visibility": "off"}]},
                     {"featureType": "transit.station.bus",
                     "stylers": [{"visibility": "on"}]},
                     {"featureType": "transit.station.bus",
@@ -46,6 +48,8 @@ function getMarkers(localizacionParada){
              styles: [
                 {"featureType": "transit",
                 "stylers": [{"visibility": "off"}]},
+                 {"featureType": "poi",
+                 "stylers": [{"visibility": "off"}]},
                 {"featureType": "transit.station.bus",
                 "stylers": [{"visibility": "on"}]},
                 {"featureType": "transit.station.bus",
@@ -80,6 +84,8 @@ function getBarrio(localizacionBarrio){
                 zoom: 15,
                  styles: [
                     {"featureType": "transit",
+                    "stylers": [{"visibility": "off"}]},
+                    {"featureType": "poi",
                     "stylers": [{"visibility": "off"}]},
                     {"featureType": "transit.station.bus",
                     "stylers": [{"visibility": "on"}]},
